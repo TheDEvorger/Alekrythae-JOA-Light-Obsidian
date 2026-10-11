@@ -17,7 +17,6 @@
 
 [**✦ Explore the showroom**](#the-studio-in-action) &nbsp;·&nbsp; [**⚔ What it does**](#made-for-storytellers) &nbsp;·&nbsp; [**↓ Install**](#installation) &nbsp;·&nbsp; [**⌘ Engineering**](#behind-the-curtain) &nbsp;·&nbsp; [**Türkçe**](./docs/README_TR.md)
 
-**Checks run locally; this repository does not configure GitHub Actions or Dependabot version-update bots.**
 
 </div>
 
