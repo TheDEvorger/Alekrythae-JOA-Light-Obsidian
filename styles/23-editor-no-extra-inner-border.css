@@ -1,0 +1,40 @@
+/* Single ornate outer frame; do not draw an extra line inside the narrative area. */
+.joa-studio-modal .joa-writing-body,
+.joa-studio-modal .joa-writing-body:focus-within {
+  border: 0 !important;
+  outline: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.joa-studio-modal .joa-dialogue-input,
+.joa-studio-modal .joa-dialogue-input:focus,
+.joa-studio-modal .joa-dialogue-input:focus-visible {
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+/* Delete actions should always be discoverable and usable in Mevcudat. */
+.joa-studio-modal .joa-name-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.joa-studio-modal .joa-name-row-actions {
+  opacity: 1 !important;
+  flex: 0 0 auto;
+  align-items: center;
+}
+.joa-studio-modal .joa-name-row-actions .joa-row-icon {
+  width: auto;
+  min-width: 46px;
+  padding: 0 7px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.joa-studio-modal .joa-name-row-actions .joa-row-delete {
+  color: #dfab9b;
+  border: 1px solid rgba(203, 125, 111, .42);
+}
+@media (max-width: 780px) {
+  .joa-studio-modal .joa-name-list { grid-template-columns: minmax(0, 1fr); }
+}

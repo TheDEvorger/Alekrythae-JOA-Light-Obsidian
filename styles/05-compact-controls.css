@@ -1,0 +1,25 @@
+.joa-scene-tab .joa-section-intro { align-items: center; }
+.joa-scene-confirm { flex: 0 0 auto; white-space: nowrap; }
+.joa-character-card-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  justify-content: stretch;
+  gap: 12px;
+}
+/* Roster actions remain discoverable without relying on hidden icon opacity. */
+.joa-name-row-actions { opacity: 1; flex-shrink: 0; }
+.joa-name-row .joa-row-icon {
+  width: auto;
+  min-width: 44px;
+  height: 30px;
+  padding: 0 8px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--background-primary) 60%, transparent);
+  color: var(--text-muted);
+  font-size: 10px;
+  font-weight: 700;
+}
+.joa-name-row .joa-row-edit:hover { color: var(--text-normal); border-color: var(--interactive-accent); }
+.joa-name-row .joa-row-life:hover,
+.joa-name-row .joa-row-delete:hover { color: #e5a0a6; border-color: rgba(204,114,127,.5); }
+

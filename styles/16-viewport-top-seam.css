@@ -1,0 +1,48 @@
+/* JOA Light hotfix: remove the narrow strip above the F3 workbench.
+ * The modal wrapper already fills the viewport, but host themes can give
+ * Obsidian's INNER .modal-content a top inset, margin or flex slot.
+ * Anchor that content separately; changing the shell alone cannot fix it.
+ */
+.modal-container:has(.joa-studio-modal) {
+  inset: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+.modal-container .joa-studio-modal {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+/* The critical fix: bypass reserved modal header/flex space. */
+.modal-container .joa-studio-modal > .modal-content.joa-studio-content,
+.modal-container .joa-studio-modal > .joa-studio-content {
+  position: absolute !important;
+  inset: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+.modal-container .joa-studio-modal > .joa-studio-content > .joa-studio-shell {
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+}

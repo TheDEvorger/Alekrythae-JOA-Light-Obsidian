@@ -1,0 +1,10 @@
+{
+  "id": "joa-frp-writer",
+  "name": "JOA Light",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Write fantasy stories in Obsidian with character portraits, dialogue callouts, roster, bags, and Meggy's D240 events.",
+  "author": "TheDEvorger",
+  "isDesktopOnly": true,
+  "authorUrl": "https://github.com/TheDEvorger"
+}

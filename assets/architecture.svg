@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="332" viewBox="0 0 1150 332" role="img" aria-labelledby="title desc">
+<title id="title">JOA Light layered architecture</title>
+<desc id="desc">Composition root coordinates presentation, application, domain and infrastructure; adapters implement ports. The TypeScript modules are bundled into main.js for Obsidian.</desc>
+<rect width="1150" height="332" rx="26" fill="#131624"/>
+<g font-family="DejaVu Sans, sans-serif" text-anchor="middle">
+<text x="575" y="39" fill="#e9dac2" font-size="22" font-weight="700">Layered source architecture</text>
+<g stroke-width="2"><rect x="455" y="62" width="240" height="52" rx="14" fill="#423456" stroke="#ae82cd"/><rect x="48" y="168" width="270" height="98" rx="18" fill="#2a2a46" stroke="#7c87cf"/><rect x="441" y="168" width="268" height="98" rx="18" fill="#2a2d3e" stroke="#ac8cbf"/><rect x="831" y="168" width="271" height="98" rx="18" fill="#253e42" stroke="#68acaa"/></g>
+<g fill="#f2e8df" font-weight="700" font-size="20"><text x="575" y="95">main.ts</text><text x="183" y="209">Presentation</text><text x="575" y="209">Application</text><text x="967" y="209">Domain</text></g>
+<g fill="#c2c2d0" font-size="14"><text x="183" y="234">F3 · cards · roster</text><text x="575" y="234">Use cases &amp; ports</text><text x="967" y="234">Pure rules · D240</text></g>
+<path d="M535 115 V155 H183 V162 M575 115 V162 M615 115 V155 H967 V162" stroke="#bc95d2" stroke-width="3" fill="none"/>
+<path d="M319 217 H433 M713 217 H821" stroke="#bfacc8" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M425 211 L433 217 L425 223 M813 211 L821 217 L813 223" stroke="#bfacc8" stroke-width="3" fill="none"/>
+<text x="575" y="302" fill="#d8bfa7" font-size="16">Infrastructure adapters: vault I/O · SQLite payload codec · portraits · randomness</text>
+</g></svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="52" viewBox="0 0 720 52" role="img" aria-labelledby="title desc">
+  <title id="title">JOA Light publication attributes</title>
+  <desc id="desc">Desktop only, v1.0.0 initial public beta, and proprietary source-available license.</desc>
+  <rect x="1" y="5" width="195" height="42" rx="10" fill="#152536" stroke="#3D6473"/>
+  <rect x="204" y="5" width="230" height="42" rx="10" fill="#30261E" stroke="#9C7C55"/>
+  <rect x="442" y="5" width="277" height="42" rx="10" fill="#262438" stroke="#666087"/>
+  <circle cx="23" cy="26" r="5" fill="#83BCA9"/>
+  <circle cx="226" cy="26" r="5" fill="#F1CC84"/>
+  <circle cx="464" cy="26" r="5" fill="#AFA7E8"/>
+  <g fill="#EDF2F7" font-size="14" font-family="Segoe UI, Arial, sans-serif" font-weight="600">
+    <text x="39" y="31">DESKTOP ONLY</text>
+    <text x="242" y="31">v1.0.0 PUBLIC BETA</text>
+    <text x="480" y="31">PROPRIETARY SOFTWARE</text>
+  </g>
+</svg>

@@ -1,0 +1,96 @@
+
+/* 2026-10-10: precisely centered independent SVG handles, platform-neutral hit target. */
+.joa-studio-modal .joa-visual-blur .joa-mist-slider {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 64px;
+  height: 28px;
+  flex: 0 0 64px;
+  margin-left: 3px;
+  isolation: isolate;
+}
+.joa-studio-modal .joa-mist-rail {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 8px;
+  transform: translateY(-50%);
+  border: 1px solid rgba(226,184,112,.7);
+  border-radius: 100px;
+  background: linear-gradient(#10202c,#0a1621);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.65);
+  pointer-events: none;
+}
+.joa-studio-modal .joa-mist-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 11px;
+  border-radius: 100px;
+  background: linear-gradient(90deg,#136883,#12cdf7);
+  box-shadow: 0 0 6px rgba(29,205,241,.36);
+}
+.joa-studio-modal .joa-mist-jewel {
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  width: 22px;
+  height: 22px;
+  transform: translate(-50%,-50%);
+  background: var(--joa-slider-thumb-svg) center / contain no-repeat;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,.4));
+  pointer-events: none;
+  transition: filter 120ms ease;
+}
+.joa-studio-modal .joa-mist-slider:hover .joa-mist-jewel,
+.joa-studio-modal .joa-mist-slider:focus-within .joa-mist-jewel {
+  filter: drop-shadow(0 0 5px rgba(39,200,242,.65));
+}
+/* Native input is still used for mouse/touch/keyboard interaction, but not visuals. */
+.joa-studio-modal .joa-visual-blur .joa-mist-slider > input[type="range"] {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  position: absolute !important;
+  z-index: 2 !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 0 !important;
+  cursor: pointer;
+  background: transparent !important;
+}
+.joa-studio-modal .joa-mist-slider > input[type="range"]::-webkit-slider-runnable-track,
+.joa-studio-modal .joa-mist-slider > input[type="range"]::-webkit-slider-thumb {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.joa-studio-modal .joa-mist-slider > input[type="range"]::-moz-range-track,
+.joa-studio-modal .joa-mist-slider > input[type="range"]::-moz-range-thumb {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.joa-studio-modal .joa-mist-slider:focus-within .joa-mist-rail {
+  outline: 2px solid rgba(235,194,111,.78);
+  outline-offset: 3px;
+}
+/* Lower always-on compositing; keep both user-controlled blur effects functional. */
+.joa-studio-modal .joa-visual-button,
+.joa-studio-modal .joa-visual-select,
+.joa-studio-modal .joa-visual-blur {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+.joa-studio-modal .joa-fantasy-background {
+  filter: var(--joa-fantasy-filter, none) !important;
+}
+.joa-studio-modal .joa-story-backdrop {
+  filter: var(--joa-story-filter, none) !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .joa-studio-modal .joa-mist-jewel { transition: none; }
+}

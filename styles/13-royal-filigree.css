@@ -1,0 +1,122 @@
+/* Royal filigree: compact real UI ornaments, not a screenshot overlay. */
+.joa-studio-modal {
+  --joa-corner-tl: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2268%22%20height%3D%2268%22%20viewBox%3D%220%200%2068%2068%22%3E%3Cg%20transform%3D%22rotate%280%2034%2034%29%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23dfb56a%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20stroke-width%3D%221.7%22%20d%3D%22M3%2059V23%20Q3%204%2023%203%20H60%22%2F%3E%3Cpath%20stroke-width%3D%22.7%22%20d%3D%22M10%2051V23%20Q10%2010%2023%2010%20H51%22%2F%3E%3Cpath%20stroke-width%3D%221.3%22%20d%3D%22M3%2039%20Q18%2031%2016%2019%20Q15%209%2027%208%20M39%203%20Q31%2018%2020%2015%20Q9%2013%208%2028%22%2F%3E%3Cpath%20stroke-width%3D%22.9%22%20d%3D%22M7%2039%20Q27%2040%2029%2019%20Q42%2018%2045%207%20M39%207%20Q34%2027%2018%2029%20Q14%2045%207%2050%22%2F%3E%3Cpath%20stroke-width%3D%22.8%22%20d%3D%22M4%2029%20Q19%2039%2027%2049%20M29%204%20Q39%2018%2049%2027%22%2F%3E%3Cpath%20stroke-width%3D%221%22%20d%3D%22M12%2022%20Q18%2018%2019%2025%20Q19%2029%2014%2028%20M22%2012%20Q18%2018%2025%2019%20Q29%2018%2028%2014%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%23e8c88a%22%20stroke%3D%22%238b592a%22%20stroke-width%3D%22.55%22%3E%3Cpath%20d%3D%22M4%204%20L10%200%20L16%204%20L10%209Z%22%2F%3E%3Cpath%20d%3D%22M18%2018%20L24%2012%20L30%2018%20L24%2024Z%22%2F%3E%3Cpath%20d%3D%22M1%2058%20L4%2048%20L7%2058%20L4%2068Z%22%2F%3E%3Cpath%20d%3D%22M58%201%20L48%204%20L58%207%20L68%204Z%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2218%22%20r%3D%222%22%20fill%3D%22%238ce0d5%22%20stroke%3D%22%23e9cb8c%22%20stroke-width%3D%22.9%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  --joa-corner-tr: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2268%22%20height%3D%2268%22%20viewBox%3D%220%200%2068%2068%22%3E%3Cg%20transform%3D%22rotate%2890%2034%2034%29%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23dfb56a%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20stroke-width%3D%221.7%22%20d%3D%22M3%2059V23%20Q3%204%2023%203%20H60%22%2F%3E%3Cpath%20stroke-width%3D%22.7%22%20d%3D%22M10%2051V23%20Q10%2010%2023%2010%20H51%22%2F%3E%3Cpath%20stroke-width%3D%221.3%22%20d%3D%22M3%2039%20Q18%2031%2016%2019%20Q15%209%2027%208%20M39%203%20Q31%2018%2020%2015%20Q9%2013%208%2028%22%2F%3E%3Cpath%20stroke-width%3D%22.9%22%20d%3D%22M7%2039%20Q27%2040%2029%2019%20Q42%2018%2045%207%20M39%207%20Q34%2027%2018%2029%20Q14%2045%207%2050%22%2F%3E%3Cpath%20stroke-width%3D%22.8%22%20d%3D%22M4%2029%20Q19%2039%2027%2049%20M29%204%20Q39%2018%2049%2027%22%2F%3E%3Cpath%20stroke-width%3D%221%22%20d%3D%22M12%2022%20Q18%2018%2019%2025%20Q19%2029%2014%2028%20M22%2012%20Q18%2018%2025%2019%20Q29%2018%2028%2014%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%23e8c88a%22%20stroke%3D%22%238b592a%22%20stroke-width%3D%22.55%22%3E%3Cpath%20d%3D%22M4%204%20L10%200%20L16%204%20L10%209Z%22%2F%3E%3Cpath%20d%3D%22M18%2018%20L24%2012%20L30%2018%20L24%2024Z%22%2F%3E%3Cpath%20d%3D%22M1%2058%20L4%2048%20L7%2058%20L4%2068Z%22%2F%3E%3Cpath%20d%3D%22M58%201%20L48%204%20L58%207%20L68%204Z%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2218%22%20r%3D%222%22%20fill%3D%22%238ce0d5%22%20stroke%3D%22%23e9cb8c%22%20stroke-width%3D%22.9%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  --joa-corner-br: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2268%22%20height%3D%2268%22%20viewBox%3D%220%200%2068%2068%22%3E%3Cg%20transform%3D%22rotate%28180%2034%2034%29%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23dfb56a%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20stroke-width%3D%221.7%22%20d%3D%22M3%2059V23%20Q3%204%2023%203%20H60%22%2F%3E%3Cpath%20stroke-width%3D%22.7%22%20d%3D%22M10%2051V23%20Q10%2010%2023%2010%20H51%22%2F%3E%3Cpath%20stroke-width%3D%221.3%22%20d%3D%22M3%2039%20Q18%2031%2016%2019%20Q15%209%2027%208%20M39%203%20Q31%2018%2020%2015%20Q9%2013%208%2028%22%2F%3E%3Cpath%20stroke-width%3D%22.9%22%20d%3D%22M7%2039%20Q27%2040%2029%2019%20Q42%2018%2045%207%20M39%207%20Q34%2027%2018%2029%20Q14%2045%207%2050%22%2F%3E%3Cpath%20stroke-width%3D%22.8%22%20d%3D%22M4%2029%20Q19%2039%2027%2049%20M29%204%20Q39%2018%2049%2027%22%2F%3E%3Cpath%20stroke-width%3D%221%22%20d%3D%22M12%2022%20Q18%2018%2019%2025%20Q19%2029%2014%2028%20M22%2012%20Q18%2018%2025%2019%20Q29%2018%2028%2014%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%23e8c88a%22%20stroke%3D%22%238b592a%22%20stroke-width%3D%22.55%22%3E%3Cpath%20d%3D%22M4%204%20L10%200%20L16%204%20L10%209Z%22%2F%3E%3Cpath%20d%3D%22M18%2018%20L24%2012%20L30%2018%20L24%2024Z%22%2F%3E%3Cpath%20d%3D%22M1%2058%20L4%2048%20L7%2058%20L4%2068Z%22%2F%3E%3Cpath%20d%3D%22M58%201%20L48%204%20L58%207%20L68%204Z%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2218%22%20r%3D%222%22%20fill%3D%22%238ce0d5%22%20stroke%3D%22%23e9cb8c%22%20stroke-width%3D%22.9%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  --joa-corner-bl: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2268%22%20height%3D%2268%22%20viewBox%3D%220%200%2068%2068%22%3E%3Cg%20transform%3D%22rotate%28270%2034%2034%29%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23dfb56a%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20stroke-width%3D%221.7%22%20d%3D%22M3%2059V23%20Q3%204%2023%203%20H60%22%2F%3E%3Cpath%20stroke-width%3D%22.7%22%20d%3D%22M10%2051V23%20Q10%2010%2023%2010%20H51%22%2F%3E%3Cpath%20stroke-width%3D%221.3%22%20d%3D%22M3%2039%20Q18%2031%2016%2019%20Q15%209%2027%208%20M39%203%20Q31%2018%2020%2015%20Q9%2013%208%2028%22%2F%3E%3Cpath%20stroke-width%3D%22.9%22%20d%3D%22M7%2039%20Q27%2040%2029%2019%20Q42%2018%2045%207%20M39%207%20Q34%2027%2018%2029%20Q14%2045%207%2050%22%2F%3E%3Cpath%20stroke-width%3D%22.8%22%20d%3D%22M4%2029%20Q19%2039%2027%2049%20M29%204%20Q39%2018%2049%2027%22%2F%3E%3Cpath%20stroke-width%3D%221%22%20d%3D%22M12%2022%20Q18%2018%2019%2025%20Q19%2029%2014%2028%20M22%2012%20Q18%2018%2025%2019%20Q29%2018%2028%2014%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%23e8c88a%22%20stroke%3D%22%238b592a%22%20stroke-width%3D%22.55%22%3E%3Cpath%20d%3D%22M4%204%20L10%200%20L16%204%20L10%209Z%22%2F%3E%3Cpath%20d%3D%22M18%2018%20L24%2012%20L30%2018%20L24%2024Z%22%2F%3E%3Cpath%20d%3D%22M1%2058%20L4%2048%20L7%2058%20L4%2068Z%22%2F%3E%3Cpath%20d%3D%22M58%201%20L48%204%20L58%207%20L68%204Z%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2218%22%20r%3D%222%22%20fill%3D%22%238ce0d5%22%20stroke%3D%22%23e9cb8c%22%20stroke-width%3D%22.9%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  --joa-medallion: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%2026%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23dcb774%22%20stroke-width%3D%221.2%22%3E%3Cpath%20d%3D%22M0%2013H27L37%203L50%2013L63%203L73%2013H100M26%2013L37%2023L50%2013L63%2023L74%2013%22%2F%3E%3Cpath%20d%3D%22M31%2013L42%2013M58%2013L69%2013%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M50%202L59%2013L50%2024L41%2013Z%22%20fill%3D%22%23c7964b%22%20stroke%3D%22%23fff1ae%22%2F%3E%3Cpath%20d%3D%22M50%207L54%2013L50%2019L46%2013Z%22%20fill%3D%22%2369afae%22%2F%3E%3C%2Fsvg%3E");
+  --joa-ornate-frame: color-mix(in srgb, var(--joa-fantasy-gold, #dfb56a) 88%, #fff 12%);
+}
+.joa-studio-modal .joa-studio-header {
+  border-bottom: 1px solid var(--joa-ornate-frame);
+  box-shadow: inset 0 -3px 0 rgba(221,178,107,.12);
+}
+.joa-studio-modal .joa-header-portrait { border-radius: 5px; outline: 1px solid var(--joa-ornate-frame); outline-offset: 3px; }
+.joa-studio-modal .joa-studio-tabs {
+  position: relative; padding-bottom: 8px;
+  border-bottom: 1px solid var(--joa-ornate-frame);
+  box-shadow: 0 2px 0 rgba(216,167,85,.38);
+}
+.joa-studio-modal .joa-studio-tabs::after {
+  content: ""; position: absolute; bottom: -12px; left: calc(50% - 46px);
+  width: 92px; height: 24px; background: var(--joa-medallion) center / contain no-repeat;
+  pointer-events: none; z-index: 2;
+}
+.joa-studio-modal .joa-tab-button,
+.joa-studio-modal .joa-visual-button,
+.joa-studio-modal .joa-visual-select,
+.joa-studio-modal .joa-visual-blur,
+.joa-studio-modal .joa-speaker-select,
+.joa-studio-modal .joa-scene-add-main,
+.joa-studio-modal .joa-scene-confirm {
+  border: 1px solid var(--joa-ornate-frame) !important;
+  border-radius: 3px !important;
+  outline: 1px solid color-mix(in srgb, var(--joa-ornate-frame) 42%, transparent);
+  outline-offset: -4px;
+  box-shadow: inset 0 0 0 1px rgba(5,8,12,.56), inset 0 0 20px rgba(223,181,106,.05), 0 6px 16px rgba(0,0,0,.24);
+}
+.joa-studio-modal .joa-tab-button.is-active {
+  box-shadow: inset 0 0 0 1px rgba(223,181,106,.8), inset 0 0 18px rgba(220,168,70,.15), 0 0 10px rgba(223,181,106,.18);
+}
+.joa-studio-modal :is(.joa-scene-compact-row, .joa-writing-paper, .joa-character-card,
+  .joa-roster-form, .joa-name-row, .joa-roster-empty, .joa-empty-state,
+  .joa-crop-panel, .joa-dialog) {
+  position: relative; border: 1px solid var(--joa-ornate-frame) !important;
+  border-radius: 6px !important;
+  box-shadow: inset 0 0 0 3px rgba(5,16,25,.56), inset 0 0 0 4px rgba(215,168,83,.31), 0 6px 20px rgba(0,0,0,.16);
+}
+.joa-studio-modal :is(.joa-scene-compact-row, .joa-writing-paper, .joa-character-card,
+  .joa-roster-form, .joa-name-row, .joa-roster-empty, .joa-empty-state,
+  .joa-crop-panel, .joa-dialog)::after {
+  content: ""; position: absolute; inset: 1px; pointer-events: none; z-index: 4;
+  background-image: var(--joa-corner-tl), var(--joa-corner-tr), var(--joa-corner-br), var(--joa-corner-bl);
+  background-position: top left, top right, bottom right, bottom left;
+  background-size: 41px 41px, 41px 41px, 41px 41px, 41px 41px;
+  background-repeat: no-repeat; opacity: .95;
+}
+.joa-studio-modal .joa-writing-paper { padding: 11px; flex: 1 1 auto; }
+.joa-studio-modal .joa-dialogue-input { border: 1px solid color-mix(in srgb,var(--joa-fantasy-line) 55%,transparent) !important; border-radius: 5px; }
+.joa-studio-modal .joa-scene-compact-row { padding: 7px 13px; margin-bottom: 11px; min-height: 69px; gap: 12px; background: color-mix(in srgb, var(--joa-fantasy-panel) 35%, transparent); }
+.joa-studio-modal .joa-speaker-picker-group { display: flex; align-items: center; flex: 1 1 380px; min-width: 0; max-width: min(650px, 75%); gap: 9px; }
+.joa-studio-modal .joa-scene-speaker-portrait {
+  width: 54px; height: 54px; flex: 0 0 54px; padding: 2px;
+  border: 1px solid var(--joa-ornate-frame); border-radius: 4px;
+  outline: 1px solid var(--joa-ornate-frame); outline-offset: 2px;
+  background: color-mix(in srgb,var(--joa-fantasy-panel) 78%,#111);
+  color: var(--joa-ornate-frame); font-size: 22px; line-height: 1; cursor: pointer; overflow: hidden;
+  display: grid; place-items: center; text-align: center;
+}
+.joa-studio-modal .joa-scene-speaker-portrait img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center 30%; border-radius: 2px; }
+.joa-studio-modal .joa-scene-speaker-portrait:disabled { cursor: default; opacity: 1; }
+.joa-studio-modal .joa-scene-compact-row .joa-speaker-select {
+  flex: 1 1 auto; width: 100%; min-width: 0; max-width: none; height: 39px;
+  padding: 4px 12px; background: color-mix(in srgb,var(--joa-fantasy-panel) 89%,transparent);
+}
+.joa-studio-modal .joa-scene-add-main {
+  width: 36px; height: 37px; flex: 0 0 36px; padding: 0;
+  color: var(--joa-ornate-frame); font-size: 22px; line-height: 1; cursor: pointer;
+  background: color-mix(in srgb,var(--joa-fantasy-panel) 88%,transparent);
+  display: grid; place-items: center; text-align: center;
+}
+.joa-studio-modal .joa-scene-confirm { flex: 0 0 auto; font-size: 12px; min-width: 146px; }
+.joa-studio-modal .joa-scene-confirm:not(:disabled):hover,
+.joa-studio-modal .joa-scene-add-main:not(:disabled):hover { filter: brightness(1.18); transform: translateY(-2px); }
+.joa-studio-modal .joa-cards-tab .joa-section-intro,
+.joa-studio-modal .joa-roster-tab .joa-section-intro {
+  padding: 7px 12px; margin-bottom: 10px; border-bottom: 1px solid var(--joa-ornate-frame);
+  background: color-mix(in srgb,var(--joa-fantasy-panel) 42%,transparent);
+}
+.joa-studio-modal .joa-character-card,
+.joa-studio-modal .joa-name-row,
+.joa-studio-modal .joa-roster-form {
+  background: color-mix(in srgb, var(--joa-fantasy-panel) 75%, transparent);
+  color: var(--joa-fantasy-ink);
+}
+.joa-studio-modal .joa-person-portrait-button,
+.joa-studio-modal .joa-roster-portrait { border: 1px solid var(--joa-ornate-frame); border-radius: 5px; display: grid; place-items: center; text-align: center; line-height: 1; }
+.joa-studio-modal .joa-section-title,
+.joa-studio-modal .joa-card-display-name { color: var(--joa-fantasy-ink); font-family: Georgia, Cambria, serif; }
+.joa-studio-modal .joa-section-subtitle { display: none; }
+.joa-studio-modal :is(.joa-character-card, .joa-name-row):hover { border-color: var(--joa-fantasy-glow) !important; }
+@media (max-width: 650px) {
+  .joa-studio-modal .joa-scene-compact-row { flex-wrap: wrap; gap: 8px; }
+  .joa-studio-modal .joa-speaker-picker-group { max-width: 100%; flex: 1 1 100%; gap: 7px; }
+  .joa-studio-modal .joa-scene-confirm { width: 100%; }
+  .joa-studio-modal .joa-scene-compact-row .joa-speaker-select { min-width: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .joa-studio-modal .joa-scene-confirm:hover,
+  .joa-studio-modal .joa-scene-add-main:hover { transform: none; }
+}
+/* Crest medallions do not consume any layout height. */
+.joa-studio-modal :is(.joa-writing-paper, .joa-scene-compact-row, .joa-cards-tab .joa-section-intro,
+  .joa-roster-tab .joa-section-intro) { position: relative; }
+.joa-studio-modal :is(.joa-writing-paper, .joa-scene-compact-row)::before {
+  content: ""; position: absolute; top: -10px; left: calc(50% - 37px);
+  width: 74px; height: 20px; pointer-events: none; z-index: 5;
+  background: var(--joa-medallion) center / contain no-repeat;
+}
+.joa-studio-modal .joa-writing-paper .joa-field-topline { padding-inline: 26px; }
+.joa-studio-modal .joa-writing-paper .joa-dialogue-input { box-shadow: inset 0 0 0 2px rgba(190,142,71,.12); }
+.joa-studio-modal .joa-character-card { padding-inline: 13px; }
+.joa-studio-modal .joa-roster-empty { background: color-mix(in srgb,var(--joa-fantasy-panel) 52%,transparent); }

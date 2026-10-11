@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: https://github.com/TheDEvorger/Alekrythae-JOA-Light-Obsidian/security/advisories/new
+    about: Privately disclose security findings. Never post vulnerabilities or sensitive vault data in public issues.

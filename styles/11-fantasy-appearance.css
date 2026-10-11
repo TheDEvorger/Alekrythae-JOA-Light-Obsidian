@@ -1,0 +1,162 @@
+/* JOA appearance engine: compact chrome, cinematic background and semantic theme tokens. */
+.joa-studio-modal .joa-studio-shell {
+  position: relative;
+  isolation: isolate;
+  background-color: #061522;
+  color: var(--joa-fantasy-ink, #eee5cc);
+}
+.joa-studio-modal .joa-fantasy-background {
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  pointer-events: none;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: var(--joa-fantasy-base, #071a24);
+  filter: blur(var(--joa-fantasy-blur, 0px));
+  will-change: auto;
+  transform: scale(1.045);
+  transform-origin: center center;
+}
+.joa-studio-modal .joa-studio-shell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(180deg,
+    rgba(3,12,20,var(--joa-fantasy-darkness, .32)),
+    rgba(3,12,20,var(--joa-fantasy-darkness, .32)) 42%,
+    rgba(3,12,20,var(--joa-fantasy-darkness, .32)));
+}
+.joa-studio-modal .joa-studio-header {
+  min-height: 70px;
+  padding: 8px 46px 8px 18px;
+  gap: 12px;
+  border-bottom: 1px solid color-mix(in srgb, var(--joa-fantasy-gold) 35%, transparent);
+  background: color-mix(in srgb, var(--joa-fantasy-panel) 43%, transparent);
+}
+.joa-studio-modal .joa-brand-identity { gap: 10px; flex: 0 1 auto; }
+.joa-studio-modal .joa-header-portrait { width: 48px; height: 48px; flex-basis: 48px; border-radius: 9px; }
+.joa-studio-modal .joa-studio-title {
+  font-family: Georgia, Cambria, serif;
+  margin-top: 2px;
+  font-size: clamp(16px, 1.65vw, 24px);
+  color: var(--joa-fantasy-ink);
+}
+.joa-studio-modal .joa-kicker { font-size: 8px; color: var(--joa-fantasy-gold); }
+.joa-studio-modal .joa-studio-subtitle { display: none; }
+.joa-studio-modal .joa-visual-controls {
+  min-width: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+}
+.joa-studio-modal .joa-visual-button,
+.joa-studio-modal .joa-visual-select,
+.joa-studio-modal .joa-visual-blur {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  min-width: 0;
+  max-width: 100%;
+  padding: 6px 11px;
+  border: 1px solid var(--joa-fantasy-gold);
+  border-radius: var(--joa-fantasy-radius);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--joa-fantasy-panel) 92%, rgba(255,255,255,.04)), color-mix(in srgb, var(--joa-fantasy-panel) 82%, transparent));
+  backdrop-filter: blur(6px);
+  color: var(--joa-fantasy-ink);
+  box-shadow: 0 6px 18px rgba(0,0,0,.28), inset 0 1px 0 rgba(255,255,255,.06);
+  font-family: var(--font-interface);
+  font-size: 11px;
+  font-weight: 650;
+}
+.joa-studio-modal .joa-visual-button { cursor: pointer; }
+.joa-studio-modal .joa-visual-button:hover { background: linear-gradient(180deg, color-mix(in srgb, var(--joa-fantasy-gold) 22%, var(--joa-fantasy-panel)), color-mix(in srgb, var(--joa-fantasy-panel) 82%, transparent)); transform: translateY(-1px); }
+.joa-studio-modal .joa-visual-select select { max-width: 165px; width: auto; min-width: 85px; border: 0; background: transparent; font-size: 11px; color: inherit; }
+.joa-studio-modal .joa-visual-select > span,
+.joa-studio-modal .joa-visual-blur {
+  letter-spacing: .02em;
+}
+.joa-studio-modal .joa-visual-select > span {
+  color: color-mix(in srgb, var(--joa-fantasy-gold) 72%, #fff 28%);
+  font-weight: 760;
+}
+.joa-studio-modal .joa-visual-theme { width: 120px !important; }
+.joa-studio-modal .joa-visual-fit { width: 132px !important; }
+.joa-studio-modal .joa-visual-blur input { width: 62px; margin: 0; accent-color: var(--joa-fantasy-line); }
+.joa-studio-modal .joa-studio-tabs {
+  gap: 0;
+  padding: 4px 12px;
+  border-bottom: 1px solid var(--joa-fantasy-gold);
+  background: color-mix(in srgb, var(--joa-fantasy-panel) 48%, transparent);
+}
+.joa-studio-modal .joa-tab-button {
+  min-height: 34px;
+  border: 1px solid color-mix(in srgb, var(--joa-fantasy-gold) 35%, transparent);
+  border-radius: var(--joa-fantasy-radius);
+  background: color-mix(in srgb, var(--joa-fantasy-panel) 62%, transparent);
+  color: var(--joa-fantasy-ink);
+  font-size: 11px;
+}
+.joa-studio-modal .joa-tab-button.is-active {
+  border-color: var(--joa-fantasy-gold);
+  color: var(--joa-fantasy-ink);
+  background: color-mix(in srgb, var(--joa-fantasy-gold) 22%, var(--joa-fantasy-panel));
+  box-shadow: inset 0 -2px 0 var(--joa-fantasy-gold);
+}
+.joa-studio-modal .joa-tab-button:hover { border-color: var(--joa-fantasy-gold); }
+.joa-studio-modal .joa-scene-tab { padding: 10px 16px 16px; overflow: hidden; }
+.joa-studio-modal .joa-scene-compact-row {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  margin-bottom: 9px;
+}
+.joa-studio-modal .joa-scene-compact-row .joa-speaker-select {
+  width: clamp(170px, 31vw, 390px);
+  max-width: calc(100% - 145px);
+  min-height: 37px;
+  padding: 6px 12px;
+  border: 1px solid var(--joa-fantasy-gold);
+  border-radius: var(--joa-fantasy-radius);
+  background: color-mix(in srgb, var(--joa-fantasy-panel) 87%, transparent);
+  color: var(--joa-fantasy-ink);
+}
+.joa-studio-modal .joa-scene-confirm {
+  min-height: 37px;
+  padding: 6px 16px;
+  border: 1px solid var(--joa-fantasy-gold);
+  border-radius: var(--joa-fantasy-radius);
+  background: color-mix(in srgb, var(--joa-fantasy-glow) 35%, #1a102d);
+  color: var(--joa-fantasy-ink);
+  box-shadow: 0 3px 12px rgba(0,0,0,.18);
+}
+.joa-studio-modal .joa-writing-paper {
+  flex: 1;
+  min-height: 0;
+  padding: 11px;
+  border: 1px solid var(--joa-fantasy-gold);
+  border-radius: var(--joa-fantasy-radius);
+  background: color-mix(in srgb, var(--joa-fantasy-panel) 38%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb,var(--joa-fantasy-line) 34%,transparent);
+}
+.joa-studio-modal .joa-dialogue-input {
+  min-height: min(255px, 45dvh);
+  background: color-mix(in srgb,var(--joa-fantasy-panel) 32%,transparent) !important;
+  color: var(--joa-fantasy-ink);
+  font-size: clamp(13px,1.1vw,16px);
+  line-height: 1.65;
+}
+.joa-studio-modal .joa-dialogue-input::placeholder { color: var(--joa-fantasy-muted); }
+.joa-studio-modal .joa-field-label { color: var(--joa-fantasy-gold); }
+.joa-studio-modal .joa-character-count { color: var(--joa-fantasy-muted); }
+.joa-studio-modal .joa-scene-tab .joa-primary-button:focus-visible,
+.joa-studio-modal .joa-visual-controls :focus-visible { outline: 2px solid var(--joa-fantasy-glow); outline-offset: 2px; }

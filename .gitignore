@@ -1,0 +1,175 @@
+# ════════════════════════════════════════════════════════════════════════════
+# JOA LIGHT · PUBLIC REPOSITORY BOUNDARY
+# ════════════════════════════════════════════════════════════════════════════
+# IMPORTANT: .gitignore does NOT untrack already committed files, erase Git
+# history, encrypt local data or protect against explicit `git add -f`.
+# Before publication run: npm run security:check && git status --short
+# Keep source TypeScript under src/infrastructure/sqlite/ COMMITTED.
+
+# 01 · Obsidian vaults / workspace / per-user plugin state (AT ANY DEPTH)
+.obsidian/
+**/.obsidian/
+.joa/
+**/.joa/
+**/data.json
+**/data.json.*
+**/workspace.json
+**/workspace-mobile.json
+**/.trash/
+**/.recycle/
+**/.recycle-bin/
+
+# 02 · Live databases, SQLite journals, recovery copies and runtime artwork
+# `sqlite/` is a runtime folder at plugin root. NOT src/.../sqlite/.
+/sqlite/
+/**/sqlite/inventory.sqlite*
+**/*.sqlite
+**/*.sqlite-*
+**/*.sqlite.*
+**/*.sqlite3
+**/*.sqlite3-*
+**/*.sqlite3.*
+**/*.db
+**/*.db-*
+**/*.db.*
+**/*.db3
+**/*.db3-*
+**/*.db3.*
+**/*.s3db
+**/*.sqlitedb
+**/*.sqlitedb-*
+**/*-journal
+**/*-wal
+**/*-shm
+/art/
+**/art/*.webp
+**/art/*.png
+**/art/*.jpg
+**/art/*.jpeg
+**/art/*.avif
+**/art/*.gif
+**/art/*.svg
+# Only shipped landscape is public; other wallpapers are personal data.
+/background-images/*
+!/background-images/default.webp
+
+# 03 · Local environments, service tokens and private config
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+**/.npmrc
+**/.netrc
+**/.pypirc
+**/.git-credentials
+**/.credentials
+**/.ssh/
+**/.gnupg/
+**/.aws/
+**/.azure/
+**/.kube/
+**/.config/gcloud/
+**/.config/gh/
+**/credentials.json
+**/service-account.json
+**/service_account.json
+**/secrets.json
+**/secrets.yml
+**/secrets.yaml
+**/*secret.local*
+**/*token.local*
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*.key
+**/*.p8
+**/*.keystore
+**/*.jks
+**/*.kdbx
+**/*.asc
+**/id_rsa*
+**/id_ed25519*
+**/id_ecdsa*
+**/id_dsa*
+
+# 04 · Build and dependency artifacts (root generated bundles are INTENTIONAL)
+node_modules/
+**/node_modules/
+/build/
+/release/
+/dist/
+/coverage/
+/.nyc_output/
+/.cache/
+/.turbo/
+/.parcel-cache/
+/.next/
+/out/
+/.eslintcache
+*.tsbuildinfo
+.npm/
+.pnpm-store/
+.yarn/cache/
+
+# 05 · Editor state, OS residue, local reports
+.vscode/
+.idea/
+.fleet/
+.history/
+*.code-workspace
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+desktop.ini
+*.stackdump
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.pid.lock
+
+# 06 · Personal backups, dumps, exports and distributable archives
+*.bak
+*.backup
+*.backup.*
+*.old
+*.orig
+*.rej
+*.tmp
+*.temp
+*.temp.*
+*.local
+*.zip
+*.7z
+*.rar
+*.tar
+*.tgz
+*.gz
+*.dump
+*.sql
+*.sql.gz
+*.psd
+*.xcf
+
+# 07 · Operating-system binaries and keys that never belong in this repo
+*.exe
+*.msi
+*.msp
+*.dll
+*.so
+*.dylib
+*.dmg
+*.app/
+*.crx
+*.asar
+*.class
+*.pyc
+__pycache__/

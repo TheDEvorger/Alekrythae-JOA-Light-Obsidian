@@ -1,0 +1,20 @@
+/* JOA mini hotfix: center '+' geometrically, independent of theme font glyph metrics.
+   Button's accessible label and its decorative ::after layer are preserved. */
+.joa-studio-modal .joa-scene-add-main {
+  font-size: 0 !important;
+  line-height: 0 !important;
+  position: relative;
+}
+.joa-studio-modal .joa-scene-add-main::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(currentColor,currentColor) center / 2px 16px no-repeat,
+              linear-gradient(currentColor,currentColor) center / 16px 2px no-repeat;
+  pointer-events: none;
+  z-index: 2;
+}

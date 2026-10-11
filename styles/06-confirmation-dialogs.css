@@ -1,0 +1,138 @@
+/* JOA-owned confirmation and edit overlays: scoped to this modal only. */
+.joa-studio-modal .joa-dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(9, 8, 14, .73);
+  backdrop-filter: blur(8px);
+}
+.joa-studio-modal .joa-dialog {
+  width: min(460px, 100%);
+  padding: 27px 28px 22px;
+  border: 1px solid color-mix(in srgb, #c69b61 43%, var(--background-modifier-border));
+  border-radius: 17px;
+  background:
+    radial-gradient(circle at 0% 0%, rgba(152, 103, 175, .13), transparent 62%),
+    var(--background-primary);
+  box-shadow: 0 28px 100px rgba(0,0,0,.53), 0 0 0 1px rgba(255,255,255,.03);
+  color: var(--text-normal);
+}
+.joa-studio-modal .joa-dialog-danger {
+  border-color: rgba(193,108,122,.42);
+}
+.joa-studio-modal .joa-dialog-heading {
+  margin: 0 0 11px;
+  color: color-mix(in srgb, #dbbd89 72%, var(--text-normal));
+  font-family: var(--font-interface);
+  font-size: 20px;
+  font-weight: 760;
+}
+.joa-studio-modal .joa-dialog-danger .joa-dialog-heading { color: #edb0a9; }
+.joa-studio-modal .joa-dialog-description {
+  margin: 0 0 22px;
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.7;
+}
+.joa-studio-modal .joa-dialog-actions { display:flex; gap: 10px; justify-content: flex-end; }
+.joa-studio-modal .joa-dialog-actions button {
+  min-height: 38px;
+  padding: 0 15px;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 740;
+  cursor: pointer;
+}
+.joa-studio-modal .joa-dialog-cancel {
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+}
+.joa-studio-modal .joa-dialog-primary {
+  color: var(--text-on-accent);
+  border: 1px solid var(--interactive-accent);
+  background: var(--interactive-accent);
+}
+.joa-studio-modal .joa-dialog-danger {
+  background-color: var(--background-primary);
+}
+.joa-studio-modal .joa-dialog-danger .joa-dialog-danger {
+  color: #fff;
+  background: #9d4254;
+  border: 1px solid #b65a68;
+}
+.joa-studio-modal .joa-dialog-name-fields {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) 20px minmax(0,1fr);
+  align-items: end;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.joa-studio-modal .joa-dialog-name-fields-with-title {
+  grid-template-columns: minmax(0,.85fr) 12px minmax(0,1fr) 20px minmax(0,1fr);
+  gap: 7px;
+}
+.joa-studio-modal .joa-dialog-title-separator { color: var(--text-muted); }
+.joa-studio-modal .joa-dialog-name-field { display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+.joa-studio-modal .joa-dialog-name-field span { font-size: 10px; font-weight: 750; color:var(--text-muted); }
+.joa-studio-modal .joa-dialog-name-field input {
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  color: var(--text-normal);
+  border-radius: 8px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+}
+.joa-studio-modal .joa-dialog-separator {
+  height: 40px;
+  display:grid;
+  place-items:center;
+  color: #dbbd89;
+  font-size: 20px;
+}
+.joa-studio-modal .joa-dialog-validation { color: #eea29f; font-size: 11px; margin: 0 0 12px; }
+.joa-studio-modal .joa-dialog-validation:empty { display: none; }
+
+@media (max-width: 900px) {
+  .joa-character-card-grid { grid-template-columns: minmax(0, 1fr); }
+  .joa-name-list { grid-template-columns: 1fr; }
+  .joa-name-row .joa-row-icon { min-width: 38px; padding: 0 6px; }
+  .joa-scene-tab .joa-section-intro { gap: 10px; }
+}
+@media (max-width: 560px) {
+  .joa-scene-tab .joa-section-intro { align-items: stretch; flex-direction: column; }
+  .joa-scene-confirm { width: 100%; }
+}
+
+/* Four-across inventory ledger: each card is about 1/4 of the usable width. */
+.joa-character-card-grid .joa-character-card { padding: 12px; border-radius: 14px; }
+.joa-character-card-grid .joa-person-title-row {
+  grid-template-columns: minmax(0, 1fr) 17px minmax(0, 1fr);
+  gap: 5px;
+}
+.joa-character-card-grid .joa-name-separator { width: 17px; font-size: 21px; }
+.joa-character-card-grid .joa-person-name-input {
+  width: 100%;
+  font-size: 12px;
+  padding-inline: 8px;
+}
+.joa-character-card-grid .joa-free-inventory { min-height: 185px; padding: 10px; font-size: 12px; }
+.joa-character-card-grid .joa-card-footer { gap: 5px; }
+.joa-character-card-grid .joa-card-display-name { font-size: 10px; }
+.joa-character-card-grid .joa-danger-ghost { font-size: 10px; padding-inline: 7px; }
+@media (max-width: 1250px) and (min-width: 901px) {
+  .joa-character-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 900px) and (min-width: 601px) {
+  .joa-character-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .joa-character-card-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+

@@ -1,0 +1,142 @@
+/* D24 visual event codex. Every label gets its own material, contour and accent. */
+.callout[data-callout="joa-trace"] {
+  --joa-event-rgb: 155,193,153;
+  border-radius: 4px 16px 6px 18px;
+  border-top: 2px double rgb(155,193,153);
+  background: radial-gradient(ellipse at 10% 8%,rgba(155,193,153,.25),transparent 57%),
+    linear-gradient(105deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 1px 0 rgba(155,193,153, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-whisper"] {
+  --joa-event-rgb: 176,145,202;
+  border-radius: 22px 3px 22px 3px;
+  border-right: 3px solid rgb(176,145,202);
+  background: radial-gradient(ellipse at 15% 17%,rgba(176,145,202,.25),transparent 57%),
+    linear-gradient(155deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 2px 0 rgba(176,145,202, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-secret"] {
+  --joa-event-rgb: 182,157,101;
+  border-radius: 3px 3px 18px 18px;
+  border-bottom: 4px solid rgb(182,157,101);
+  background: radial-gradient(ellipse at 20% 26%,rgba(182,157,101,.25),transparent 57%),
+    linear-gradient(30deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 3px 0 rgba(182,157,101, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-warning"] {
+  --joa-event-rgb: 208,146,98;
+  border-radius: 15px 15px 2px 2px;
+  border-left: 2px double rgb(208,146,98);
+  background: radial-gradient(ellipse at 25% 35%,rgba(208,146,98,.25),transparent 57%),
+    linear-gradient(165deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 1px 0 rgba(208,146,98, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-threshold"] {
+  --joa-event-rgb: 102,181,180;
+  border-radius: 0 24px 0 24px;
+  border-top: 3px solid rgb(102,181,180);
+  background: radial-gradient(ellipse at 30% 44%,rgba(102,181,180,.25),transparent 57%),
+    linear-gradient(85deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 2px 0 rgba(102,181,180, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-loss"] {
+  --joa-event-rgb: 138,156,189;
+  border-radius: 20px 20px 6px 6px;
+  border-right: 4px solid rgb(138,156,189);
+  background: radial-gradient(ellipse at 35% 53%,rgba(138,156,189,.25),transparent 57%),
+    linear-gradient(110deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 3px 0 rgba(138,156,189, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-memory"] {
+  --joa-event-rgb: 205,168,118;
+  border-radius: 7px 7px 27px 7px;
+  border-bottom: 2px double rgb(205,168,118);
+  background: radial-gradient(ellipse at 40% 62%,rgba(205,168,118,.25),transparent 57%),
+    linear-gradient(55deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 1px 0 rgba(205,168,118, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-intuition"] {
+  --joa-event-rgb: 172,181,139;
+  border-radius: 16px 0 16px 0;
+  border-left: 3px solid rgb(172,181,139);
+  background: radial-gradient(ellipse at 45% 71%,rgba(172,181,139,.25),transparent 57%),
+    linear-gradient(145deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 2px 0 rgba(172,181,139, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-echo"] {
+  --joa-event-rgb: 115,167,208;
+  border-radius: 8px 18px 8px 18px;
+  border-top: 4px solid rgb(115,167,208);
+  background: radial-gradient(ellipse at 50% 80%,rgba(115,167,208,.25),transparent 57%),
+    linear-gradient(125deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 3px 0 rgba(115,167,208, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-threat"] {
+  --joa-event-rgb: 211,96,120;
+  border-radius: 0 3px 18px 3px;
+  border-right: 2px double rgb(211,96,120);
+  background: radial-gradient(ellipse at 55% 89%,rgba(211,96,120,.25),transparent 57%),
+    linear-gradient(175deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 1px 0 rgba(211,96,120, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-obstacle"] {
+  --joa-event-rgb: 169,155,111;
+  border-radius: 2px 18px 2px 18px;
+  border-bottom: 3px solid rgb(169,155,111);
+  background: radial-gradient(ellipse at 60% 15%,rgba(169,155,111,.25),transparent 57%),
+    linear-gradient(65deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 2px 0 rgba(169,155,111, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-offer"] {
+  --joa-event-rgb: 135,194,178;
+  border-radius: 24px 4px 4px 24px;
+  border-left: 4px solid rgb(135,194,178);
+  background: radial-gradient(ellipse at 65% 24%,rgba(135,194,178,.25),transparent 57%),
+    linear-gradient(115deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 3px 0 rgba(135,194,178, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-quest"] {
+  --joa-event-rgb: 180,129,171;
+  border-radius: 2px 2px 30px 2px;
+  border-top: 2px double rgb(180,129,171);
+  background: radial-gradient(ellipse at 70% 33%,rgba(180,129,171,.25),transparent 57%),
+    linear-gradient(45deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 1px 0 rgba(180,129,171, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-fate"] {
+  --joa-event-rgb: 180,157,222;
+  border-radius: 25px 25px 1px 25px;
+  border-right: 3px solid rgb(180,157,222);
+  background: radial-gradient(ellipse at 75% 42%,rgba(180,157,222,.25),transparent 57%),
+    linear-gradient(95deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 2px 0 rgba(180,157,222, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-place"] {
+  --joa-event-rgb: 105,190,178;
+  border-radius: 30px 4px 30px 4px;
+  border-bottom: 4px solid rgb(105,190,178);
+  background: radial-gradient(ellipse at 80% 51%,rgba(105,190,178,.25),transparent 57%),
+    linear-gradient(155deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 3px 0 rgba(105,190,178, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-conflict"] {
+  --joa-event-rgb: 215,112,107;
+  border-radius: 3px 18px 3px 18px;
+  border-left: 2px double rgb(215,112,107);
+  background: radial-gradient(ellipse at 85% 60%,rgba(215,112,107,.25),transparent 57%),
+    linear-gradient(35deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 1px 0 rgba(215,112,107, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout="joa-strangeness"] {
+  --joa-event-rgb: 191,160,226;
+  border-radius: 20px 2px 10px 2px;
+  border-top: 3px solid rgb(191,160,226);
+  background: radial-gradient(ellipse at 90% 69%,rgba(191,160,226,.25),transparent 57%),
+    linear-gradient(135deg, #111e28, #26212c 62%, #14202a);
+  box-shadow: inset 0 2px 0 rgba(191,160,226, .23), 0 9px 24px rgba(0,0,0,.18);
+}
+.callout[data-callout^="joa-"]:not([data-callout="joa-dialogue"]):not([data-callout$="speech"])::after {
+  content: ""; pointer-events: none; position: absolute; inset: 7px;
+  border: 1px solid rgba(var(--joa-event-rgb), .24); border-radius: inherit;
+  background: linear-gradient(90deg,rgba(var(--joa-event-rgb),.12),transparent 8%,transparent 92%,rgba(var(--joa-event-rgb),.08));
+}

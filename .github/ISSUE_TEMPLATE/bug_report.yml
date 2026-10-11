@@ -1,0 +1,42 @@
+name: Bug report
+description: Report unexpected plugin behavior
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "**Never upload private vault contents, SQLite files, personal portraits, passwords or unredacted screenshots.**"
+  - type: input
+    id: version
+    attributes:
+      label: JOA Light version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: obsidian
+    attributes:
+      label: Obsidian desktop version and OS
+      placeholder: Obsidian 1.x on Windows 10
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a clean test vault if possible.
+      placeholder: "1. Open a test Markdown note…"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed private vault data, real character portraits and personal information.
+          required: true

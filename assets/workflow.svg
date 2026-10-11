@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="284" viewBox="0 0 1160 284" role="img" aria-labelledby="title desc">
+<title id="title">JOA Light story workflow</title>
+<desc id="desc">Open F3, pick a speaker, write dialogue, insert markdown callout, continue writing.</desc>
+<rect width="1160" height="284" rx="26" fill="#151827"/>
+<g font-family="DejaVu Sans, sans-serif" text-anchor="middle">
+<text x="580" y="38" fill="#c6b4dc" font-size="23" font-weight="700">A story-first workflow</text>
+<g fill="#28253e" stroke="#655277" stroke-width="2">
+<rect x="25" y="76" width="195" height="140" rx="17"/>
+<rect x="257" y="76" width="195" height="140" rx="17"/>
+<rect x="489" y="76" width="195" height="140" rx="17"/>
+<rect x="721" y="76" width="195" height="140" rx="17"/>
+<rect x="953" y="76" width="182" height="140" rx="17"/>
+</g>
+<g fill="#e6d4b5" font-size="37" font-weight="700">
+<text x="123" y="144">F3</text><text x="354" y="144">01</text><text x="586" y="144">02</text><text x="817" y="144">03</text><text x="1043" y="144">04</text>
+</g>
+<g fill="#eae8f0" font-size="16">
+<text x="123" y="181">Open studio</text><text x="354" y="181">Select speaker</text><text x="586" y="181">Write dialogue</text><text x="817" y="181">Insert Markdown</text><text x="1043" y="181">Keep writing</text>
+</g>
+<g stroke="#aa81da" stroke-width="4" fill="none" stroke-linecap="round">
+<path d="M224 146 H251 M244 138 L251 146 L244 154"/><path d="M456 146 H483 M476 138 L483 146 L476 154"/><path d="M688 146 H715 M708 138 L715 146 L708 154"/><path d="M920 146 H947 M940 138 L947 146 L940 154"/>
+</g>
+<text x="580" y="254" fill="#a8a9bb" font-size="14">Illustrative workflow diagram · not an in-app screenshot</text>
+</g></svg>

@@ -1,0 +1,139 @@
+/* JOA Light: viewport seams, common ornament axis, and moving filigree controls.
+ * Keep this after the historic design sheets so one rule owns the final geometry.
+ */
+
+/* Some Obsidian themes reserve outer modal margins or a faux title-bar area. */
+.modal-container:has(.joa-studio-modal) {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  align-items: stretch !important;
+  justify-content: stretch !important;
+}
+.joa-studio-modal,
+.joa-studio-modal .joa-studio-content,
+.joa-studio-modal .joa-studio-shell {
+  inset: 0;
+  width: 100% !important;
+  max-width: none !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+}
+.joa-studio-modal .joa-studio-shell { flex: 1 1 auto; }
+
+/* A permanent scrollbar gutter on the MAIN pane shifted every scene crest
+   leftwards, while the navigation crest still used the actual viewport center.
+   Reserve scrollbar space only when a scrollbar is genuinely present. */
+.joa-studio-modal :is(.joa-panel-root, .joa-name-list, .joa-character-card-grid) {
+  scrollbar-gutter: auto !important;
+}
+.joa-studio-modal .joa-tab-panel {
+  --joa-even-side-inset: clamp(10px, 1.05vw, 18px);
+  padding-inline: var(--joa-even-side-inset) !important;
+}
+.joa-studio-modal .joa-cards-tab .joa-character-card-grid {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* All three diamonds use the center of their full-width layout boxes.
+   The tab strip and the two scene boxes share the same lateral inset. */
+.joa-studio-modal .joa-studio-tabs::after,
+.joa-studio-modal :is(.joa-scene-compact-row, .joa-writing-paper)::before {
+  left: 50% !important;
+  transform: translateX(-50%);
+  margin-left: 0;
+}
+.joa-studio-modal .joa-scene-compact-row,
+.joa-studio-modal .joa-writing-paper { width: 100%; }
+
+/* Ornaments live INSIDE each interactive surface. They participate in its
+   transform on hover; there is no detached overlay left behind. */
+.joa-studio-modal :is(
+  .joa-tab-button, .joa-visual-button, .joa-visual-select, .joa-visual-blur,
+  .joa-scene-add-main, .joa-scene-confirm, .joa-secondary-button,
+  .joa-primary-button, .joa-life-toggle, .joa-life-chip,
+  .joa-icon-button, .joa-row-icon, .joa-name-insert
+) { position: relative; }
+.joa-studio-modal :is(
+  .joa-tab-button, .joa-visual-button, .joa-visual-select, .joa-visual-blur,
+  .joa-scene-add-main, .joa-scene-confirm, .joa-secondary-button,
+  .joa-primary-button, .joa-life-toggle, .joa-life-chip,
+  .joa-icon-button, .joa-row-icon, .joa-name-insert
+)::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: inherit;
+  pointer-events: none;
+  background-image: var(--joa-corner-tl), var(--joa-corner-tr),
+    var(--joa-corner-br), var(--joa-corner-bl);
+  background-repeat: no-repeat;
+  background-position: top left, top right, bottom right, bottom left;
+  background-size: 14px 14px;
+  opacity: .9;
+  z-index: 1;
+  transition: opacity 150ms ease, filter 150ms ease;
+}
+/* Navigation has room for the full ornamental shoulders. */
+.joa-studio-modal .joa-tab-button::after { background-size: 21px 21px; }
+/* The add (+) and micro-actions must retain unobstructed, readable glyphs. */
+.joa-studio-modal :is(.joa-scene-add-main, .joa-row-icon, .joa-icon-button)::after {
+  inset: 1px;
+  background-size: 10px 10px;
+}
+.joa-studio-modal :is(.joa-visual-button, .joa-visual-select, .joa-visual-blur)::after {
+  background-size: 14px 14px;
+}
+.joa-studio-modal :is(
+  .joa-tab-button, .joa-visual-button, .joa-visual-select, .joa-visual-blur,
+  .joa-scene-add-main, .joa-scene-confirm, .joa-secondary-button,
+  .joa-primary-button, .joa-life-toggle, .joa-life-chip,
+  .joa-icon-button, .joa-row-icon, .joa-name-insert
+):hover::after { opacity: 1; filter: brightness(1.2); }
+
+@media (hover: hover) and (pointer: fine) {
+  .joa-studio-modal :is(.joa-visual-select, .joa-visual-blur,
+    .joa-secondary-button, .joa-life-toggle, .joa-life-chip,
+    .joa-icon-button, .joa-row-icon):hover {
+    transform: translateY(-2px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .joa-studio-modal :is(.joa-visual-select, .joa-visual-blur,
+    .joa-secondary-button, .joa-life-toggle, .joa-life-chip,
+    .joa-icon-button, .joa-row-icon):hover { transform: none; }
+  .joa-studio-modal :is(.joa-tab-button, .joa-visual-button, .joa-visual-select,
+    .joa-visual-blur, .joa-scene-add-main, .joa-secondary-button)::after {
+    transition: none;
+  }
+}
+
+/* JOA mini hotfix: center '+' geometrically, independent of theme font glyph metrics.
+   Button's accessible label and its decorative ::after layer are preserved. */
+.joa-studio-modal .joa-scene-add-main {
+  font-size: 0 !important;
+  line-height: 0 !important;
+  position: relative;
+}
+.joa-studio-modal .joa-scene-add-main::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(currentColor,currentColor) center / 2px 16px no-repeat,
+              linear-gradient(currentColor,currentColor) center / 16px 2px no-repeat;
+  pointer-events: none;
+  z-index: 2;
+}

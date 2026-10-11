@@ -1,0 +1,962 @@
+{
+  "1": {
+    "text": "Yakında mütevazı bir yol kendini gösteriyor.",
+    "audio": "Assets/mv-voice/MV1.mp3"
+  },
+  "2": {
+    "text": "En yakın sınır, kullanılabilir bir geçide dönüşerek gevşiyor.",
+    "audio": "Assets/mv-voice/MV2.mp3"
+  },
+  "3": {
+    "text": "Önceki bir açılmanın bıraktığı alan hâlâ kullanılabilir durumda.",
+    "audio": "Assets/mv-voice/MV3.mp3"
+  },
+  "4": {
+    "text": "Genişlik boyunca ince bir güzergâh görünür hâle geliyor.",
+    "audio": "Assets/mv-voice/MV4.mp3"
+  },
+  "5": {
+    "text": "Uzak sınırlar geri çekilerek daha fazla yön sunuyor.",
+    "audio": "Assets/mv-voice/MV5.mp3"
+  },
+  "6": {
+    "text": "Geniş akış, daha önce açılan bir geçitten hâlâ yararlanıyor.",
+    "audio": "Assets/mv-voice/MV6.mp3"
+  },
+  "7": {
+    "text": "Merkezde erişim, ani bir yarılmayla ortaya çıkıyor.",
+    "audio": "Assets/mv-voice/MV7.mp3"
+  },
+  "8": {
+    "text": "Sağlam bir engel, en önemli noktada yol veriyor.",
+    "audio": "Assets/mv-voice/MV8.mp3"
+  },
+  "9": {
+    "text": "Sonraki geçiş, burada açılan şeyin gücünü izliyor.",
+    "audio": "Assets/mv-voice/MV9.mp3"
+  },
+  "10": {
+    "text": "Tek ve güçlü bir yarılma, bütün alan boyunca yollar açığa çıkarıyor.",
+    "audio": "Assets/mv-voice/MV10.mp3"
+  },
+  "11": {
+    "text": "Dış sınırlar dışa doğru eğilerek birkaç yaklaşım yolunu serbest bırakıyor.",
+    "audio": "Assets/mv-voice/MV11.mp3"
+  },
+  "12": {
+    "text": "Bir zamanlar kazanılan geniş erişim, uzaklığı şekillendirmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV12.mp3"
+  },
+  "13": {
+    "text": "Fark edişin altında küçük bir giriş biçimlenmeye başlıyor.",
+    "audio": "Assets/mv-voice/MV13.mp3"
+  },
+  "14": {
+    "text": "Hiç duyurmadan iç sınır daha geçit verir hâle geliyor.",
+    "audio": "Assets/mv-voice/MV14.mp3"
+  },
+  "15": {
+    "text": "Önceden kalan görünmeyen bir açıklık bütünüyle kaybolmuş değil.",
+    "audio": "Assets/mv-voice/MV15.mp3"
+  },
+  "16": {
+    "text": "Görüşün çok ötesinde olası bir güzergâh sessizce oluşuyor.",
+    "audio": "Assets/mv-voice/MV16.mp3"
+  },
+  "17": {
+    "text": "Sessiz kenarlar, henüz gözlenmemiş alanlar boyunca gevşiyor.",
+    "audio": "Assets/mv-voice/MV17.mp3"
+  },
+  "18": {
+    "text": "Fark edilmeyen bir yol, beklenenden daha uzağa uzanmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV18.mp3"
+  },
+  "19": {
+    "text": "Merkezin hemen altında gömülü bir açıklık güç topluyor.",
+    "audio": "Assets/mv-voice/MV19.mp3"
+  },
+  "20": {
+    "text": "Aşağıdaki baskı, iç sınırı bir çıkışa dönüştürüyor.",
+    "audio": "Assets/mv-voice/MV20.mp3"
+  },
+  "21": {
+    "text": "Görünmeden yarıp geçen şey, en yakın ihtimali hâlâ ileri itiyor.",
+    "audio": "Assets/mv-voice/MV21.mp3"
+  },
+  "22": {
+    "text": "Bilinen sınırın ötesinde büyük bir erişim oluşmaya başlıyor.",
+    "audio": "Assets/mv-voice/MV22.mp3"
+  },
+  "23": {
+    "text": "Gizli sınırlar, büyük alan boyunca iki yana açılıyor.",
+    "audio": "Assets/mv-voice/MV23.mp3"
+  },
+  "24": {
+    "text": "Saklı bir yarılma, görünmeyen uzak güzergâhları değiştirmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV24.mp3"
+  },
+  "25": {
+    "text": "Hemen yakında hafif bir kısıtlama beliriyor.",
+    "audio": "Assets/mv-voice/MV25.mp3"
+  },
+  "26": {
+    "text": "En yakın açıklık yavaşça daha dar bir çizgiye çekiliyor.",
+    "audio": "Assets/mv-voice/MV26.mp3"
+  },
+  "27": {
+    "text": "Önceki bir kapanma, buradaki kullanılabilir alanı hâlâ azaltıyor.",
+    "audio": "Assets/mv-voice/MV27.mp3"
+  },
+  "28": {
+    "text": "Geniş güzergâh boyunca ince bir engel görünür oluyor.",
+    "audio": "Assets/mv-voice/MV28.mp3"
+  },
+  "29": {
+    "text": "Dıştaki birkaç yaklaşım yolu sessizce genişliğini kaybediyor.",
+    "audio": "Assets/mv-voice/MV29.mp3"
+  },
+  "30": {
+    "text": "Eski sınırlar, ilerideki seçenekleri azaltmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV30.mp3"
+  },
+  "31": {
+    "text": "Katı bir engel merkeze yerleşiyor.",
+    "audio": "Assets/mv-voice/MV31.mp3"
+  },
+  "32": {
+    "text": "Merkezdeki erişim bir anda sert bir kısıtlamaya dönüşüyor.",
+    "audio": "Assets/mv-voice/MV32.mp3"
+  },
+  "33": {
+    "text": "Burası, daha önce getirilen kapanışa hâlâ uyuyor.",
+    "audio": "Assets/mv-voice/MV33.mp3"
+  },
+  "34": {
+    "text": "Açık alan boyunca güçlü bir engelleme yükseliyor.",
+    "audio": "Assets/mv-voice/MV34.mp3"
+  },
+  "35": {
+    "text": "Bütün alan, geride kalan daha az yolun çevresinde daralıyor.",
+    "audio": "Assets/mv-voice/MV35.mp3"
+  },
+  "36": {
+    "text": "Önceden kalan geniş bir kapanış, her yaklaşım yoluna hâlâ yük oluyor.",
+    "audio": "Assets/mv-voice/MV36.mp3"
+  },
+  "37": {
+    "text": "İçte bir sınır, görünür bir belirti olmadan oluşmaya başlıyor.",
+    "audio": "Assets/mv-voice/MV37.mp3"
+  },
+  "38": {
+    "text": "Gizli giriş incelerek geçişi belirsiz hâle getiriyor.",
+    "audio": "Assets/mv-voice/MV38.mp3"
+  },
+  "39": {
+    "text": "Önceden kalan sessiz bir engelleme, merkezde hâlâ yer tutuyor.",
+    "audio": "Assets/mv-voice/MV39.mp3"
+  },
+  "40": {
+    "text": "Olağan fark edişin dışında uzak güzergâhlar erişimini kaybetmeye başlıyor.",
+    "audio": "Assets/mv-voice/MV40.mp3"
+  },
+  "41": {
+    "text": "Görünmeyen sınırlar, uzak alanlar boyunca içeri doğru ilerliyor.",
+    "audio": "Assets/mv-voice/MV41.mp3"
+  },
+  "42": {
+    "text": "Saklı bir kapanış, görünmeyen alanı kısaltmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV42.mp3"
+  },
+  "43": {
+    "text": "Durgun merkezin altında ağır bir kısıtlanma oluşuyor.",
+    "audio": "Assets/mv-voice/MV43.mp3"
+  },
+  "44": {
+    "text": "Gömülü güzergâh, artan baskı altında içe doğru katlanıyor.",
+    "audio": "Assets/mv-voice/MV44.mp3"
+  },
+  "45": {
+    "text": "Görünmeyen bir kilit, en yakın ilerleme yolunu denetlemeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV45.mp3"
+  },
+  "46": {
+    "text": "Görünür alanın ötesinde büyük bir engel oluşuyor.",
+    "audio": "Assets/mv-voice/MV46.mp3"
+  },
+  "47": {
+    "text": "Gizli sınırlar, geniş güzergâhın çevresinde birleşiyor.",
+    "audio": "Assets/mv-voice/MV47.mp3"
+  },
+  "48": {
+    "text": "Uzak kapanışlar, hangi yönlerin mümkün kalacağını belirlemeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV48.mp3"
+  },
+  "49": {
+    "text": "Yumuşak bir yakınlık, en yakında duranları birbirine bağlamaya başlıyor.",
+    "audio": "Assets/mv-voice/MV49.mp3"
+  },
+  "50": {
+    "text": "En yakın ilişki daha kolay bir uyuma yöneliyor.",
+    "audio": "Assets/mv-voice/MV50.mp3"
+  },
+  "51": {
+    "text": "Daha önce doğan destek, mevcut düzeni bir arada tutuyor.",
+    "audio": "Assets/mv-voice/MV51.mp3"
+  },
+  "52": {
+    "text": "Birbirinden uzak parçalar arasında ince bağlantılar beliriyor.",
+    "audio": "Assets/mv-voice/MV52.mp3"
+  },
+  "53": {
+    "text": "Dağınık unsurlar birbirine daha az dirençle karşılık vermeye başlıyor.",
+    "audio": "Assets/mv-voice/MV53.mp3"
+  },
+  "54": {
+    "text": "Önceki bir birleşme, bütüne düzen kazandırmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV54.mp3"
+  },
+  "55": {
+    "text": "Merkez noktanın çevresinde güçlü bir birlik oluşuyor.",
+    "audio": "Assets/mv-voice/MV55.mp3"
+  },
+  "56": {
+    "text": "Merkezdeki ilişki, kararlı bir karşılıklı güçle yeniden hizalanıyor.",
+    "audio": "Assets/mv-voice/MV56.mp3"
+  },
+  "57": {
+    "text": "Burada kurulan birlik, yakındaki seçimleri yönlendirmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV57.mp3"
+  },
+  "58": {
+    "text": "Bütün görünür alan boyunca güçlü bağlar ortaya çıkıyor.",
+    "audio": "Assets/mv-voice/MV58.mp3"
+  },
+  "59": {
+    "text": "Birçok ayrı çizgi ortak bir düzen içinde birleşiyor.",
+    "audio": "Assets/mv-voice/MV59.mp3"
+  },
+  "60": {
+    "text": "Önceki bir yakınlaşma, uzak parçalara hâlâ birlik kazandırıyor.",
+    "audio": "Assets/mv-voice/MV60.mp3"
+  },
+  "61": {
+    "text": "Göze çarpmayan bir yakınlık, doğrudan fark edişin altında kök salıyor.",
+    "audio": "Assets/mv-voice/MV61.mp3"
+  },
+  "62": {
+    "text": "Görünürde bağlı olmayan unsurlar arasında sessiz bir anlayış gelişiyor.",
+    "audio": "Assets/mv-voice/MV62.mp3"
+  },
+  "63": {
+    "text": "Önceden kalan söze dökülmemiş bir bağlantı yumuşak biçimde etkin kalıyor.",
+    "audio": "Assets/mv-voice/MV63.mp3"
+  },
+  "64": {
+    "text": "Görünmeyen aralıklar boyunca hafif yakınlıklar oluşmaya başlıyor.",
+    "audio": "Assets/mv-voice/MV64.mp3"
+  },
+  "65": {
+    "text": "Fark edilmeyen ilişkiler yavaşça iş birliği içinde düzenleniyor.",
+    "audio": "Assets/mv-voice/MV65.mp3"
+  },
+  "66": {
+    "text": "Saklı bir uyum, uzak parçaları sessizce hizalı tutuyor.",
+    "audio": "Assets/mv-voice/MV66.mp3"
+  },
+  "67": {
+    "text": "Dışarıdan sakin görünen merkezin altında yoğun bir bütünlük oluşuyor.",
+    "audio": "Assets/mv-voice/MV67.mp3"
+  },
+  "68": {
+    "text": "Gömülü bir ilişki, ayrılmayı zorlaştıracak kadar güçleniyor.",
+    "audio": "Assets/mv-voice/MV68.mp3"
+  },
+  "69": {
+    "text": "Görünmeyen birleşme, ardından gelene hâlâ kuvvet uyguluyor.",
+    "audio": "Assets/mv-voice/MV69.mp3"
+  },
+  "70": {
+    "text": "Büyük görünmeyen karşılıklar, dış alanları birbirine bağlamaya başlıyor.",
+    "audio": "Assets/mv-voice/MV70.mp3"
+  },
+  "71": {
+    "text": "Gizli ağlar, geniş alanı içeriden yeniden düzenliyor.",
+    "audio": "Assets/mv-voice/MV71.mp3"
+  },
+  "72": {
+    "text": "Görüşün ötesindeki güçlü bir uyum, alanı bir arada tutmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV72.mp3"
+  },
+  "73": {
+    "text": "En yakın ilişkiye küçük bir gerilim giriyor.",
+    "audio": "Assets/mv-voice/MV73.mp3"
+  },
+  "74": {
+    "text": "Yakındaki bağ esnemeye daha az istekli hâle geliyor.",
+    "audio": "Assets/mv-voice/MV74.mp3"
+  },
+  "75": {
+    "text": "Kalan gerilim, eldeki bağlantıyı inceltmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV75.mp3"
+  },
+  "76": {
+    "text": "Geniş bağlantı kümesinde küçük uyuşmazlıklar yüzeye çıkıyor.",
+    "audio": "Assets/mv-voice/MV76.mp3"
+  },
+  "77": {
+    "text": "Ortak bağlar, görünür ağ boyunca yavaşça gevşiyor.",
+    "audio": "Assets/mv-voice/MV77.mp3"
+  },
+  "78": {
+    "text": "Önceki sürtüşme, alan boyunca iş birliğini hâlâ kesintiye uğratıyor.",
+    "audio": "Assets/mv-voice/MV78.mp3"
+  },
+  "79": {
+    "text": "Şiddetli gerilim, merkezdeki bağı açıkça etkiliyor.",
+    "audio": "Assets/mv-voice/MV79.mp3"
+  },
+  "80": {
+    "text": "Merkezdeki bağlantı açık bir karşıtlığa dönüşüyor.",
+    "audio": "Assets/mv-voice/MV80.mp3"
+  },
+  "81": {
+    "text": "Burada oluşan kopuş, yakındaki her alışverişi şekillendirmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV81.mp3"
+  },
+  "82": {
+    "text": "Belirgin bir ayrılık, görünür ağ boyunca yayılıyor.",
+    "audio": "Assets/mv-voice/MV82.mp3"
+  },
+  "83": {
+    "text": "Büyük ağ, birkaç belirgin çizgi boyunca birbirinden ayrılıyor.",
+    "audio": "Assets/mv-voice/MV83.mp3"
+  },
+  "84": {
+    "text": "Önceki geniş bir ayrılık, ortak hareketi hâlâ zayıflatıyor.",
+    "audio": "Assets/mv-voice/MV84.mp3"
+  },
+  "85": {
+    "text": "İnce bir güvensizlik, en yakın bağın içine yerleşmeye başlıyor.",
+    "audio": "Assets/mv-voice/MV85.mp3"
+  },
+  "86": {
+    "text": "Söze dökülmemiş bir ilişki, karşılıklı destekten sessizce çekiliyor.",
+    "audio": "Assets/mv-voice/MV86.mp3"
+  },
+  "87": {
+    "text": "Eski huzursuzluk, yakındaki bağlantının içinde örülü kalıyor.",
+    "audio": "Assets/mv-voice/MV87.mp3"
+  },
+  "88": {
+    "text": "Hafif uyumsuzluk, olağan fark edişin ötesinde çoğalmaya başlıyor.",
+    "audio": "Assets/mv-voice/MV88.mp3"
+  },
+  "89": {
+    "text": "Görünürde birleşik duran alanlarda görünmeyen bağlar gevşiyor.",
+    "audio": "Assets/mv-voice/MV89.mp3"
+  },
+  "90": {
+    "text": "Sessiz bir ayrışma, uzak ilişkiler boyunca ilerlemeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV90.mp3"
+  },
+  "91": {
+    "text": "En yakın bağın altında yoğunlaşmış bir çatışma oluşuyor.",
+    "audio": "Assets/mv-voice/MV91.mp3"
+  },
+  "92": {
+    "text": "Saklı bağ, güçlü bir çekişmeye dönüşerek katılaşıyor.",
+    "audio": "Assets/mv-voice/MV92.mp3"
+  },
+  "93": {
+    "text": "Görünmeyen çekişme, merkezdeki ilişkiyi hâlâ yönetiyor.",
+    "audio": "Assets/mv-voice/MV93.mp3"
+  },
+  "94": {
+    "text": "Görünürde birleşik olan bütünün altında büyük ayrılıklar oluşuyor.",
+    "audio": "Assets/mv-voice/MV94.mp3"
+  },
+  "95": {
+    "text": "Saklı bir ağ, en geniş bağlantıları boyunca parçalanıyor.",
+    "audio": "Assets/mv-voice/MV95.mp3"
+  },
+  "96": {
+    "text": "Derin ayrışma, henüz bütünüyle oluşmamış bağları etkilemeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV96.mp3"
+  },
+  "97": {
+    "text": "Yumuşak bir itki, en yakın akışa katılıyor.",
+    "audio": "Assets/mv-voice/MV97.mp3"
+  },
+  "98": {
+    "text": "Yakındaki hareket daha akıcı bir yöne kıvrılıyor.",
+    "audio": "Assets/mv-voice/MV98.mp3"
+  },
+  "99": {
+    "text": "Daha önce kazanılan ivme, mevcut durumu ileri taşımayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV99.mp3"
+  },
+  "100": {
+    "text": "Geniş alan boyunca hafif bir hareket uyanıyor.",
+    "audio": "Assets/mv-voice/MV100.mp3"
+  },
+  "101": {
+    "text": "Geniş yöneliş, direncin daha az olduğu alana dönüyor.",
+    "audio": "Assets/mv-voice/MV101.mp3"
+  },
+  "102": {
+    "text": "Önceki bir ilerleme, uzaktaki hareketi yönlendirmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV102.mp3"
+  },
+  "103": {
+    "text": "Merkez noktadan güçlü bir yükseliş ortaya çıkıyor.",
+    "audio": "Assets/mv-voice/MV103.mp3"
+  },
+  "104": {
+    "text": "Ana akış güçlü biçimde serbest harekete yöneliyor.",
+    "audio": "Assets/mv-voice/MV104.mp3"
+  },
+  "105": {
+    "text": "Burada açığa çıkan enerji, en yakın akışı hâlâ ileri itiyor.",
+    "audio": "Assets/mv-voice/MV105.mp3"
+  },
+  "106": {
+    "text": "Güçlü bir ilerleme, görünür alan boyunca yayılıyor.",
+    "audio": "Assets/mv-voice/MV106.mp3"
+  },
+  "107": {
+    "text": "Geniş hareket, belirgin bir hızla yönünü değiştiriyor.",
+    "audio": "Assets/mv-voice/MV107.mp3"
+  },
+  "108": {
+    "text": "Alan, daha önce toplanan kuvvetle hareket etmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV108.mp3"
+  },
+  "109": {
+    "text": "Görünürdeki durgunluğun altında sessiz bir itki kıpırdıyor.",
+    "audio": "Assets/mv-voice/MV109.mp3"
+  },
+  "110": {
+    "text": "Fark edilmeyen hareket, daha işlenebilir bir yöne eğiliyor.",
+    "audio": "Assets/mv-voice/MV110.mp3"
+  },
+  "111": {
+    "text": "Harekete geçirilmiş bir şey, ilerleyişini sessizce sürdürüyor.",
+    "audio": "Assets/mv-voice/MV111.mp3"
+  },
+  "112": {
+    "text": "Görünmeyen alanlar boyunca hafif bir ivme gelişiyor.",
+    "audio": "Assets/mv-voice/MV112.mp3"
+  },
+  "113": {
+    "text": "Uzak yöneliş, kendini göstermeden rotasını değiştiriyor.",
+    "audio": "Assets/mv-voice/MV113.mp3"
+  },
+  "114": {
+    "text": "Saklı bir ilerleme, olağan fark edişin ötesinde yol almayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV114.mp3"
+  },
+  "115": {
+    "text": "En sakin noktanın altında güçlü bir hareket birikiyor.",
+    "audio": "Assets/mv-voice/MV115.mp3"
+  },
+  "116": {
+    "text": "Gömülü akış, daha geniş bir serbestliğe doğru güçlü biçimde ilerliyor.",
+    "audio": "Assets/mv-voice/MV116.mp3"
+  },
+  "117": {
+    "text": "Görünmeyen ivme, yakındaki sıralanışı ileri taşımayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV117.mp3"
+  },
+  "118": {
+    "text": "Bilinen sınırın ötesinde büyük bir hareket başlıyor.",
+    "audio": "Assets/mv-voice/MV118.mp3"
+  },
+  "119": {
+    "text": "Derinden işleyen kuvvetler, görünmeyen alanın tamamını yeniden yönlendiriyor.",
+    "audio": "Assets/mv-voice/MV119.mp3"
+  },
+  "120": {
+    "text": "Önceden kalan gizli bir yükseliş, ötede bulunan her şeyin içinden geçmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV120.mp3"
+  },
+  "121": {
+    "text": "Hafif bir direnç, en yakın harekete katılıyor.",
+    "audio": "Assets/mv-voice/MV121.mp3"
+  },
+  "122": {
+    "text": "Yakındaki ilerleme, daha kolay olan çizgisinden uzaklaşıyor.",
+    "audio": "Assets/mv-voice/MV122.mp3"
+  },
+  "123": {
+    "text": "Geride kalan sürtüşme, burada hareket edeni yavaşlatmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV123.mp3"
+  },
+  "124": {
+    "text": "Geniş akış boyunca küçük bir direnç beliriyor.",
+    "audio": "Assets/mv-voice/MV124.mp3"
+  },
+  "125": {
+    "text": "Geniş ilerleme, önceki hızını yavaşça kaybediyor.",
+    "audio": "Assets/mv-voice/MV125.mp3"
+  },
+  "126": {
+    "text": "Eski bir engel, uzaktaki hareketi hâlâ kesintiye uğratıyor.",
+    "audio": "Assets/mv-voice/MV126.mp3"
+  },
+  "127": {
+    "text": "Güçlü bir karşı koyuş, merkezdeki akışa çarpıyor.",
+    "audio": "Assets/mv-voice/MV127.mp3"
+  },
+  "128": {
+    "text": "Ana akış keskin biçimde dirence doğru savruluyor.",
+    "audio": "Assets/mv-voice/MV128.mp3"
+  },
+  "129": {
+    "text": "Burada yaşanan etki, yakındaki ilerlemeyi hâlâ aksatıyor.",
+    "audio": "Assets/mv-voice/MV129.mp3"
+  },
+  "130": {
+    "text": "Görünür alan boyunca geniş bir karşı kuvvet yükseliyor.",
+    "audio": "Assets/mv-voice/MV130.mp3"
+  },
+  "131": {
+    "text": "Büyük ölçekli hareket, açık baskı altında bükülüyor.",
+    "audio": "Assets/mv-voice/MV131.mp3"
+  },
+  "132": {
+    "text": "Önceki engelleme, bütün alanın hızını azaltmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV132.mp3"
+  },
+  "133": {
+    "text": "Sessiz direnç, en yakın hareketin altında tutunuyor.",
+    "audio": "Assets/mv-voice/MV133.mp3"
+  },
+  "134": {
+    "text": "İçteki akış, kendi ilerleyişine ince biçimde karşı koyuyor.",
+    "audio": "Assets/mv-voice/MV134.mp3"
+  },
+  "135": {
+    "text": "Saklı bir direnç, yakındaki hareketin içine yerleşmiş durumda kalıyor.",
+    "audio": "Assets/mv-voice/MV135.mp3"
+  },
+  "136": {
+    "text": "Fark edilmeyen direnç, uzak akışlar boyunca gelişiyor.",
+    "audio": "Assets/mv-voice/MV136.mp3"
+  },
+  "137": {
+    "text": "Uzak yöneliş, daha yavaş bir alana sapıyor.",
+    "audio": "Assets/mv-voice/MV137.mp3"
+  },
+  "138": {
+    "text": "Gizli sürtüşme, dış alan boyunca ilerlemeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV138.mp3"
+  },
+  "139": {
+    "text": "Sessiz merkezin altında yoğun bir karşı koyuş oluşuyor.",
+    "audio": "Assets/mv-voice/MV139.mp3"
+  },
+  "140": {
+    "text": "Saklı akış, artan gerilim altında kıvrılıyor.",
+    "audio": "Assets/mv-voice/MV140.mp3"
+  },
+  "141": {
+    "text": "Gömülü bir karşı kuvvet, en yakın hareketi hâlâ yönetiyor.",
+    "audio": "Assets/mv-voice/MV141.mp3"
+  },
+  "142": {
+    "text": "Görüş sınırının ötesinde büyük bir direnç oluşuyor.",
+    "audio": "Assets/mv-voice/MV142.mp3"
+  },
+  "143": {
+    "text": "Görünmeyen baskı, geniş hareketi yönünden saptırıyor.",
+    "audio": "Assets/mv-voice/MV143.mp3"
+  },
+  "144": {
+    "text": "Uzak karşı koyuş, orada ilerleyen her şeyi kısıtlamayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV144.mp3"
+  },
+  "145": {
+    "text": "Yüzeye yakın yerde daha yumuşak bir yorum beliriyor.",
+    "audio": "Assets/mv-voice/MV145.mp3"
+  },
+  "146": {
+    "text": "En yakın görünüş daha açık bir ölçüye oturuyor.",
+    "audio": "Assets/mv-voice/MV146.mp3"
+  },
+  "147": {
+    "text": "Daha önce kazanılan anlayış, bu ana hâlâ açıklık katıyor.",
+    "audio": "Assets/mv-voice/MV147.mp3"
+  },
+  "148": {
+    "text": "Yumuşak bir açıklık, geniş görüntü boyunca yayılıyor.",
+    "audio": "Assets/mv-voice/MV148.mp3"
+  },
+  "149": {
+    "text": "Birçok görünür ayrıntı, daha kullanışlı bir yoruma dönüşecek biçimde düzenleniyor.",
+    "audio": "Assets/mv-voice/MV149.mp3"
+  },
+  "150": {
+    "text": "Önceki bir kavrayış, büyük düzeni aydınlatmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV150.mp3"
+  },
+  "151": {
+    "text": "Çarpıcı bir açıklık merkez noktaya ulaşıyor.",
+    "audio": "Assets/mv-voice/MV151.mp3"
+  },
+  "152": {
+    "text": "Merkezdeki görüntü, açıkça anlaşılır bir anlama kavuşuyor.",
+    "audio": "Assets/mv-voice/MV152.mp3"
+  },
+  "153": {
+    "text": "Burada anlaşılan şey, en yakın değerlendirmeyi hâlâ yönlendiriyor.",
+    "audio": "Assets/mv-voice/MV153.mp3"
+  },
+  "154": {
+    "text": "Güçlü bir fark ediş, bütün görünür sahne boyunca ilerliyor.",
+    "audio": "Assets/mv-voice/MV154.mp3"
+  },
+  "155": {
+    "text": "Büyük görüntü, yeni açığa çıkan anlamın çevresinde yeniden düzenleniyor.",
+    "audio": "Assets/mv-voice/MV155.mp3"
+  },
+  "156": {
+    "text": "Daha önce yapılan bir keşif, ortak görünüşü yeniden şekillendirmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV156.mp3"
+  },
+  "157": {
+    "text": "Açık yorumun altında umut veren bir anlam parıldıyor.",
+    "audio": "Assets/mv-voice/MV157.mp3"
+  },
+  "158": {
+    "text": "İçteki anlayış, iç görünüşü sessizce yeniden değerlendiriyor.",
+    "audio": "Assets/mv-voice/MV158.mp3"
+  },
+  "159": {
+    "text": "Hiç dile getirilmeyen bir algı, yumuşak etkisini koruyor.",
+    "audio": "Assets/mv-voice/MV159.mp3"
+  },
+  "160": {
+    "text": "Görünmeyen bakış açıları boyunca hafif bir bütünlük ortaya çıkmaya başlıyor.",
+    "audio": "Assets/mv-voice/MV160.mp3"
+  },
+  "161": {
+    "text": "Bütünün gizli yorumu sessizce daha geniş bir anlam kazanıyor.",
+    "audio": "Assets/mv-voice/MV161.mp3"
+  },
+  "162": {
+    "text": "Fark edilmeyen kavrayış, görüntünün uzak bölümlerini açıklığa kavuşturmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV162.mp3"
+  },
+  "163": {
+    "text": "En sakin görünüşün ardında güçlü bir anlayış oluşuyor.",
+    "audio": "Assets/mv-voice/MV163.mp3"
+  },
+  "164": {
+    "text": "Saklı bir görüntü, derinleşen açıklığın çevresinde kendini yeniden düzenliyor.",
+    "audio": "Assets/mv-voice/MV164.mp3"
+  },
+  "165": {
+    "text": "Görünmeyen bir fark ediş, en yakında görüneni yönetmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV165.mp3"
+  },
+  "166": {
+    "text": "Görünür çerçevenin ötesinde büyük bir bütünlük gelişiyor.",
+    "audio": "Assets/mv-voice/MV166.mp3"
+  },
+  "167": {
+    "text": "Gizli bakış açıları, geniş sahnenin anlamını dönüştürüyor.",
+    "audio": "Assets/mv-voice/MV167.mp3"
+  },
+  "168": {
+    "text": "Görüşün ötesindeki derin bir yorum, bütünü hâlâ etkiliyor.",
+    "audio": "Assets/mv-voice/MV168.mp3"
+  },
+  "169": {
+    "text": "Hafif bir belirsizlik, en yakın anlayışa dokunuyor.",
+    "audio": "Assets/mv-voice/MV169.mp3"
+  },
+  "170": {
+    "text": "Yakındaki görüntü açıklığının bir kısmını kaybediyor.",
+    "audio": "Assets/mv-voice/MV170.mp3"
+  },
+  "171": {
+    "text": "Süren kuşku, eldeki yorumu bulandırmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV171.mp3"
+  },
+  "172": {
+    "text": "Geniş görünüş boyunca küçük bozulmalar beliriyor.",
+    "audio": "Assets/mv-voice/MV172.mp3"
+  },
+  "173": {
+    "text": "Ortak görüntü, kesinlikten yavaşça uzaklaşıyor.",
+    "audio": "Assets/mv-voice/MV173.mp3"
+  },
+  "174": {
+    "text": "Önceki bir yanlış anlama, uzak sonuçları hâlâ bulandırıyor.",
+    "audio": "Assets/mv-voice/MV174.mp3"
+  },
+  "175": {
+    "text": "Keskin bir karmaşa, merkezdeki görüntünün içine giriyor.",
+    "audio": "Assets/mv-voice/MV175.mp3"
+  },
+  "176": {
+    "text": "Merkezdeki yansıma, birbiriyle uyuşmayan yorumlara ayrılıyor.",
+    "audio": "Assets/mv-voice/MV176.mp3"
+  },
+  "177": {
+    "text": "Anlayıştaki bir kırılma, yakındaki değerlendirmeyi hâlâ sarsıyor.",
+    "audio": "Assets/mv-voice/MV177.mp3"
+  },
+  "178": {
+    "text": "Belirgin bir bozulma, bütün görünür çerçeve boyunca yayılıyor.",
+    "audio": "Assets/mv-voice/MV178.mp3"
+  },
+  "179": {
+    "text": "Büyük sahne, yaygın yanlış yorumun altında bükülüyor.",
+    "audio": "Assets/mv-voice/MV179.mp3"
+  },
+  "180": {
+    "text": "Önceden kalan yanlış bir izlenim, ortak algıyı şekillendirmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV180.mp3"
+  },
+  "181": {
+    "text": "En yakın yansımanın altında içte kalan bir kuşku oluşuyor.",
+    "audio": "Assets/mv-voice/MV181.mp3"
+  },
+  "182": {
+    "text": "İçteki görüntü, güvenilir yorumun ötesine ince biçimde kayıyor.",
+    "audio": "Assets/mv-voice/MV182.mp3"
+  },
+  "183": {
+    "text": "Dile getirilmeyen karmaşa, görünür anlamın altında kalıyor.",
+    "audio": "Assets/mv-voice/MV183.mp3"
+  },
+  "184": {
+    "text": "Hafif yanlış yorumlar, görünmeyen bakış açıları boyunca yayılmaya başlıyor.",
+    "audio": "Assets/mv-voice/MV184.mp3"
+  },
+  "185": {
+    "text": "Saklı görüntü, iç uyumunu yavaşça kaybediyor.",
+    "audio": "Assets/mv-voice/MV185.mp3"
+  },
+  "186": {
+    "text": "Sessiz bir belirsizlik, uzak bakış açıları arasında dolaşmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV186.mp3"
+  },
+  "187": {
+    "text": "Durgun yansımanın ardında yoğun bir karmaşa oluşuyor.",
+    "audio": "Assets/mv-voice/MV187.mp3"
+  },
+  "188": {
+    "text": "Gizli görüntü, güçlü bir yanlış anlamanın çevresinde bükülüyor.",
+    "audio": "Assets/mv-voice/MV188.mp3"
+  },
+  "189": {
+    "text": "Görünmeyen bir bozulma, en yakın yorumu yönetmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV189.mp3"
+  },
+  "190": {
+    "text": "Görünür çerçevenin dışında büyük bir belirsizlik gelişiyor.",
+    "audio": "Assets/mv-voice/MV190.mp3"
+  },
+  "191": {
+    "text": "Gömülü varsayımlar, geniş sahnenin anlamını büküyor.",
+    "audio": "Assets/mv-voice/MV191.mp3"
+  },
+  "192": {
+    "text": "Derin yanlış yorumlama, ötede algılanan her şeyi hâlâ etkiliyor.",
+    "audio": "Assets/mv-voice/MV192.mp3"
+  },
+  "193": {
+    "text": "Olumlu bir sonuç hemen yakında yerleşmeye başlıyor.",
+    "audio": "Assets/mv-voice/MV193.mp3"
+  },
+  "194": {
+    "text": "En yakın değişim daha sakin ve sağlam bir biçim buluyor.",
+    "audio": "Assets/mv-voice/MV194.mp3"
+  },
+  "195": {
+    "text": "Daha önce yerleşen bir kazanım destek sunmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV195.mp3"
+  },
+  "196": {
+    "text": "Geniş alan boyunca umut veren bir sonuç beliriyor.",
+    "audio": "Assets/mv-voice/MV196.mp3"
+  },
+  "197": {
+    "text": "Geniş koşullar yavaşça daha sağlam şartlarda dengeleniyor.",
+    "audio": "Assets/mv-voice/MV197.mp3"
+  },
+  "198": {
+    "text": "Daha önce varılan bir uyum, bütünü hâlâ dengede tutuyor.",
+    "audio": "Assets/mv-voice/MV198.mp3"
+  },
+  "199": {
+    "text": "Belirgin bir fayda merkezde yerleşiyor.",
+    "audio": "Assets/mv-voice/MV199.mp3"
+  },
+  "200": {
+    "text": "Merkezdeki değişim daha güçlü bir düzene yerleşiyor.",
+    "audio": "Assets/mv-voice/MV200.mp3"
+  },
+  "201": {
+    "text": "Burada sağlamlaştırılan şey, yakına güç katmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV201.mp3"
+  },
+  "202": {
+    "text": "Kalıcı bir düzen, bütün alan boyunca görünür biçimde yayılıyor.",
+    "audio": "Assets/mv-voice/MV202.mp3"
+  },
+  "203": {
+    "text": "Büyük durum, açık bir denge içinde sabitleniyor.",
+    "audio": "Assets/mv-voice/MV203.mp3"
+  },
+  "204": {
+    "text": "Önceden kalan sağlam bir sonuç, geniş yapıyı desteklemeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV204.mp3"
+  },
+  "205": {
+    "text": "Sessiz bir fayda, görünmeden kök salmaya başlıyor.",
+    "audio": "Assets/mv-voice/MV205.mp3"
+  },
+  "206": {
+    "text": "Gizli değişim, kalıcı bir iç dengeye yerleşiyor.",
+    "audio": "Assets/mv-voice/MV206.mp3"
+  },
+  "207": {
+    "text": "Fark edilmeyen bir çözülme, en yakın noktayı güçlendirmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV207.mp3"
+  },
+  "208": {
+    "text": "Görünmeyen alan boyunca sağlam bir uyum oluşmaya başlıyor.",
+    "audio": "Assets/mv-voice/MV208.mp3"
+  },
+  "209": {
+    "text": "Geniş durum sessizce güvenilir bir düzene yerleşiyor.",
+    "audio": "Assets/mv-voice/MV209.mp3"
+  },
+  "210": {
+    "text": "Saklı bir düzenleme, uzak parçaları desteklemeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV210.mp3"
+  },
+  "211": {
+    "text": "Sakin merkezin altında derin bir denge yerleşiyor.",
+    "audio": "Assets/mv-voice/MV211.mp3"
+  },
+  "212": {
+    "text": "Gömülü değişim, artan güçle sabitleniyor.",
+    "audio": "Assets/mv-voice/MV212.mp3"
+  },
+  "213": {
+    "text": "Görünmeden yerleşen güçlü bir sonuç, yakındaki koşulları hâlâ şekillendiriyor.",
+    "audio": "Assets/mv-voice/MV213.mp3"
+  },
+  "214": {
+    "text": "Görüşün çok ötesinde kalıcı bir düzen oluşmaya başlıyor.",
+    "audio": "Assets/mv-voice/MV214.mp3"
+  },
+  "215": {
+    "text": "Gizli koşullar, büyük alan boyunca sağlamlaşıyor.",
+    "audio": "Assets/mv-voice/MV215.mp3"
+  },
+  "216": {
+    "text": "Görünmeyen bir sonuç, geniş düzeni güçlendirmeyi sürdürüyor.",
+    "audio": "Assets/mv-voice/MV216.mp3"
+  },
+  "217": {
+    "text": "Mütevazı bir kısıtlama yakında yerleşmeye başlıyor.",
+    "audio": "Assets/mv-voice/MV217.mp3"
+  },
+  "218": {
+    "text": "En yakın değişim sınırlı bir duruma dönüşerek katılaşıyor.",
+    "audio": "Assets/mv-voice/MV218.mp3"
+  },
+  "219": {
+    "text": "Daha önce sabitlenen bir kısıtlama, mevcut durumun üzerinde hâlâ ağırlık oluşturuyor.",
+    "audio": "Assets/mv-voice/MV219.mp3"
+  },
+  "220": {
+    "text": "Hafif bir kısıtlama, geniş akışın üzerinde iz bırakıyor.",
+    "audio": "Assets/mv-voice/MV220.mp3"
+  },
+  "221": {
+    "text": "Geniş koşullar yavaşça daha dar sınırlar içine yerleşiyor.",
+    "audio": "Assets/mv-voice/MV221.mp3"
+  },
+  "222": {
+    "text": "Yerleşmiş bir sınırlama, uzaklık boyunca uzanmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV222.mp3"
+  },
+  "223": {
+    "text": "Sert bir sonuç merkezin denetimini ele alıyor.",
+    "audio": "Assets/mv-voice/MV223.mp3"
+  },
+  "224": {
+    "text": "Merkezdeki değişim kendi sınırları içinde sağlam biçimde kilitleniyor.",
+    "audio": "Assets/mv-voice/MV224.mp3"
+  },
+  "225": {
+    "text": "Burada getirilen kapanış, yakındaki sonuçları hâlâ yönetiyor.",
+    "audio": "Assets/mv-voice/MV225.mp3"
+  },
+  "226": {
+    "text": "Geniş bir kısıtlama, görünür alan boyunca yerleşiyor.",
+    "audio": "Assets/mv-voice/MV226.mp3"
+  },
+  "227": {
+    "text": "Büyük durum, açıkça getirilen sınırlar altında katılaşıyor.",
+    "audio": "Assets/mv-voice/MV227.mp3"
+  },
+  "228": {
+    "text": "Bütün yapı, daha önce yerleşen kısıtlayıcı bir sonucun yükünü taşımayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV228.mp3"
+  },
+  "229": {
+    "text": "İçte kalan bir kısıtlama kendi içine yerleşmeye başlıyor.",
+    "audio": "Assets/mv-voice/MV229.mp3"
+  },
+  "230": {
+    "text": "Sessiz değişim, fark edilmeyen sınırlar içine yerleşiyor.",
+    "audio": "Assets/mv-voice/MV230.mp3"
+  },
+  "231": {
+    "text": "Görünmeden oluşan bir kapanış, en yakın noktaya yük olmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV231.mp3"
+  },
+  "232": {
+    "text": "Gizli alanlar boyunca hafif bir kısıtlama yerleşmeye başlıyor.",
+    "audio": "Assets/mv-voice/MV232.mp3"
+  },
+  "233": {
+    "text": "Geniş durum, daralan sınırların ardında sessizce sabitleniyor.",
+    "audio": "Assets/mv-voice/MV233.mp3"
+  },
+  "234": {
+    "text": "Fark edilmeyen bir kısıtlama, uzak parçalar boyunca uzanmayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV234.mp3"
+  },
+  "235": {
+    "text": "Hareketsiz merkezin altında sert bir kısıtlanma yerleşiyor.",
+    "audio": "Assets/mv-voice/MV235.mp3"
+  },
+  "236": {
+    "text": "Saklı değişim, giderek daha katı bir biçime yerleşiyor.",
+    "audio": "Assets/mv-voice/MV236.mp3"
+  },
+  "237": {
+    "text": "Görünmeyen bir sabitlenme, en yakın durumu hâlâ kısıtlıyor.",
+    "audio": "Assets/mv-voice/MV237.mp3"
+  },
+  "238": {
+    "text": "Görünür alanın dışında büyük bir sınırlama oluşuyor.",
+    "audio": "Assets/mv-voice/MV238.mp3"
+  },
+  "239": {
+    "text": "Gizli koşullar, geniş yapı boyunca sağlam biçimde kapanıyor.",
+    "audio": "Assets/mv-voice/MV239.mp3"
+  },
+  "240": {
+    "text": "Uzak bir sonuç, ardından gelebilecek her şeyi sınırlamayı sürdürüyor.",
+    "audio": "Assets/mv-voice/MV240.mp3"
+  }
+}

@@ -1,0 +1,119 @@
+.joa-speaker-picker { display:flex; gap:16px; align-items:center; margin:0 0 14px; flex-wrap:wrap; }
+.joa-speaker-select { min-width:280px; max-width:550px; flex:1; height:43px; border:1px solid rgba(196,156,90,.36) !important; border-radius:10px; padding:0 14px; color:var(--text-normal); background:var(--background-secondary); }
+.joa-person-portrait-button { width:76px; height:76px; padding:0; margin:0 0 10px; border:1px solid rgba(213,165,96,.48); border-radius:13px; color:#d9a968; background:rgba(197,151,83,.08); font-size:26px; line-height:1; display:grid; place-items:center; overflow:hidden; cursor:pointer; text-align:center; }
+.joa-person-portrait-button img { width:100%; height:100%; object-fit:cover; }
+.joa-roster-portrait { width:38px; height:38px; border:1px solid rgba(213,165,96,.42); border-radius:9px; padding:0; background:rgba(197,151,83,.06); color:#dfb977; flex:0 0 38px; line-height:1; display:grid; place-items:center; overflow:hidden; text-align:center; }
+.joa-roster-portrait img {width:100%;height:100%;object-fit:cover;}
+.joa-crop-backdrop { z-index:25; }
+.joa-crop-panel { width:min(480px,92vw); max-height:94vh; overflow:auto; padding:25px; background:var(--background-secondary); border:1px solid rgba(207,162,93,.65); border-radius:17px; box-shadow:0 25px 85px #0009; color:var(--text-normal); }
+.joa-crop-panel h3 {margin:0 0 8px;color:#e6c087;font-size:21px}
+.joa-crop-panel p {font-size:13px;color:var(--text-muted);margin:0 0 14px}
+.joa-crop-canvas {width:min(320px,100%);height:auto;aspect-ratio:1;display:block;margin:0 auto 15px;border:2px solid #cfa36c;border-radius:12px;touch-action:none;cursor:grab;background:#131319}
+.joa-crop-file {display:none}
+.joa-crop-zoom-label {display:flex;gap:12px;align-items:center;justify-content:space-between;margin:14px 0}
+.joa-crop-zoom-label input {flex:1}
+.joa-crop-actions {display:flex;justify-content:flex-end;gap:12px;margin-top:16px}
+.joa-crop-error {min-height:20px;color:#ff8d88;font-size:12px}
+.callout[data-callout="joa-main-speech"] {--callout-color:210,157,84;--callout-icon:lucide-crown;border:1px solid rgba(210,157,84,.7);border-radius:14px;background:linear-gradient(110deg,rgba(210,157,84,.12),rgba(26,19,42,.38));padding:16px 22px}
+.callout[data-callout="joa-npc-speech"] {--callout-color:124,163,190;--callout-icon:lucide-scroll;border-left:4px solid #7ca3be;border-radius:10px;background:rgba(72,96,121,.12);padding:13px 18px}
+.callout[data-callout="joa-vehicle-speech"] {--callout-color:104,178,158;--callout-icon:lucide-anchor;border-left:4px solid #75bba2;border-radius:10px;background:linear-gradient(120deg,rgba(59,128,111,.14),rgba(30,36,47,.12));padding:13px 18px}
+.callout[data-callout="joa-other-speech"] {--callout-color:167,145,184;--callout-icon:lucide-sparkles;border-left:4px solid #a791b8;border-radius:10px;background:rgba(167,145,184,.09);padding:13px 18px}
+@media (min-width:1200px) {.joa-character-card-grid {grid-template-columns:repeat(4,minmax(0,1fr));}}
+@media (max-width:1199px) {.joa-character-card-grid {grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media (max-width:700px) {.joa-character-card-grid {grid-template-columns:1fr;}.joa-speaker-picker {align-items:stretch;flex-direction:column;}.joa-speaker-select {min-width:0;width:100%;}}
+
+.callout[data-callout="joa-dialogue"].joa-has-portrait .callout-title::before { display: none !important; }
+.callout:is([data-callout="joa-dialogue"],[data-callout="joa-main-speech"],[data-callout="joa-npc-speech"],[data-callout="joa-vehicle-speech"],[data-callout="joa-other-speech"]) .joa-live-portrait {
+  display: block; flex: 0 0 58px; width: 58px; height: 58px; padding: 2px;
+  object-fit: cover; object-position: center 30%; border-radius: 12px;
+  border: 1px solid rgba(218, 179, 105, .82); background: #201b26;
+  box-shadow: 0 3px 16px #0006, inset 0 0 0 1px #fff2;
+  margin-right: 12px;
+}
+.callout[data-callout^="joa-"] .callout-title:has(.joa-live-portrait) {
+  display: flex; align-items: center; gap: 4px;
+}
+.callout[data-callout^="joa-"] .callout-title:has(.joa-live-portrait) .callout-title-inner {
+  font-size: 1.12em; line-height: 1.45;
+}
+/* Character portraits remain small and dynamic; full-size scene art is disabled. */
+.joa-scene-tools-row { display: flex; align-items: center; margin-bottom: 12px; min-width: 0; }
+.joa-scene-tools-row .joa-speaker-picker { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; min-width: 0; margin: 0; width: min(100%, 720px); }
+.joa-scene-tools-row .joa-speaker-select { flex: 1; min-width: 220px; max-width: 530px; }
+@media (max-width:700px) {
+  .callout[data-callout^="joa-"] .joa-live-portrait {width:44px;height:44px;flex-basis:44px;margin-right:5px;}
+}
+
+@media (max-width: 900px) {
+  .joa-roster-form { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .joa-roster-form > button:last-child { grid-column: 1 / -1; }
+}
+@media (max-width: 620px) {
+  .joa-studio-modal .joa-dialog-name-fields-with-title {
+    grid-template-columns: minmax(0, 1fr) 18px minmax(0, 1fr);
+  }
+  .joa-studio-modal .joa-dialog-name-fields-with-title .joa-dialog-name-field:last-child {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .joa-studio-modal .joa-dialog-name-fields-with-title .joa-dialog-separator:not(.joa-dialog-title-separator) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+.joa-panel-root {
+  overscroll-behavior: contain;
+  overflow-anchor: none;
+  scrollbar-gutter: stable;
+}
+.joa-panel-root.joa-cards-tab {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.joa-cards-tab {
+  padding-top: 10px;
+}
+.joa-cards-tab .joa-character-card-grid {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  overflow-anchor: none;
+  align-content: start;
+  scrollbar-gutter: stable;
+  padding: 2px 6px 18px 2px;
+}
+.joa-cards-tab .joa-cards-toolbar {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 6px;
+  min-height: 34px;
+  margin-bottom: 10px;
+}
+.joa-cards-tab .joa-cards-toolbar .joa-section-title {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.25;
+}
+.joa-cards-tab .joa-cards-toolbar .joa-panel-actions {
+  gap: 10px;
+  margin-left: auto;
+}
+.joa-cards-tab .joa-cards-toolbar .joa-secondary-button {
+  min-height: 32px;
+  padding-inline: 12px;
+}
+@media (max-width: 560px) {
+  .joa-cards-tab { padding-top: 8px; }
+  .joa-cards-tab .joa-cards-toolbar { margin-bottom: 8px; }
+  .joa-cards-tab .joa-cards-toolbar .joa-soft-count { display: none; }
+}
+
+.joa-roster-tab .joa-name-list { overflow-anchor: none; scrollbar-gutter: stable; }

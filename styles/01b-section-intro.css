@@ -1,0 +1,14 @@
+/* Shared section-intro layout lives outside the workbench shell module. */
+.joa-section-intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+.joa-section-copy { min-width: 0; }
+.joa-section-title { margin-top: 5px; font-size: 19px; line-height: 1.15; font-weight: 780; }
+.joa-section-subtitle { margin: 5px 0 0; color: var(--text-muted); font-size: 11.5px; line-height: 1.45; }
+.joa-panel-actions { display: flex; align-items: center; gap: 8px; }
+.joa-soft-count { color: var(--text-faint); font-size: 10.5px; white-space: nowrap; }
+

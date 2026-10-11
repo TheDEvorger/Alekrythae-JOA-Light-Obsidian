@@ -1,0 +1,34 @@
+/* Low-cost, explicit read-only viewport for exceptionally long unbroken notes. */
+.joa-longtext-modal { width: min(980px, 94vw); max-width: 94vw; }
+.joa-longtext-modal .modal-content { display: flex; flex-direction: column; gap: 8px; max-height: 86vh; }
+.joa-longtext-modal h2 { margin: 2px 0 0; font-size: 19px; }
+.joa-longtext-modal .joa-longtext-file { margin: 0; color: var(--text-muted); font-size: 12px; overflow-wrap: anywhere; }
+.joa-longtext-modal .joa-longtext-help { margin: 0; font-size: 12px; color: var(--text-muted); }
+.joa-longtext-modal .joa-longtext-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; }
+.joa-longtext-modal .joa-longtext-toolbar button { min-height: 30px; padding: 4px 9px; }
+.joa-longtext-modal .joa-longtext-page-number { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.joa-longtext-modal .joa-longtext-goto { width: 66px; height: 30px; }
+.joa-longtext-modal .joa-longtext-range { color: var(--text-muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.joa-longtext-modal .joa-longtext-page {
+  display: block;
+  flex: 1 1 auto;
+  min-height: 180px;
+  max-height: 62vh;
+  overflow: auto;
+  margin: 0;
+  padding: 14px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 7px;
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  font-family: var(--font-monospace);
+  font-size: 13px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  user-select: text;
+  box-shadow: none;
+  filter: none;
+  backdrop-filter: none;
+}

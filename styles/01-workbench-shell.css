@@ -1,0 +1,171 @@
+/* JOA Light 1.0.0 */
+
+/* Obsidian modal, but edge-to-edge: the F3 studio occupies the complete viewport. */
+.modal-container:has(.joa-studio-modal) {
+  padding: 0 !important;
+  align-items: stretch !important;
+  justify-content: stretch !important;
+}
+.joa-studio-modal {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
+  min-width: 0 !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  max-height: 100vh !important;
+  max-height: 100dvh !important;
+  min-height: 100vh !important;
+  min-height: 100dvh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background:
+    radial-gradient(circle at 8% 0%, color-mix(in srgb, var(--interactive-accent) 12%, transparent), transparent 27%),
+    radial-gradient(circle at 93% 5%, rgba(74, 184, 145, .07), transparent 25%),
+    var(--background-primary);
+  box-shadow: none;
+}
+
+.joa-studio-modal .modal-close-button { top: 16px; right: 16px; }
+.joa-studio-content { padding: 0 !important; width: 100vw; height: 100vh; height: 100dvh; overflow: hidden; }
+
+.joa-studio-shell {
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.joa-studio-header {
+  flex: 0 0 auto;
+  min-height: 96px;
+  padding: 14px 70px 12px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--interactive-accent) 7%, transparent), transparent 45%);
+}
+
+.joa-brand-identity { display: flex; align-items: center; min-width: 0; gap: 14px; }
+
+.joa-header-portrait {
+  width: 62px;
+  height: 62px;
+  flex: 0 0 62px;
+  object-fit: cover;
+  object-position: 50% 31%;
+  border-radius: 15px;
+  border: 1px solid color-mix(in srgb, #d6a85c 55%, var(--interactive-accent));
+  box-shadow:
+    0 0 0 3px color-mix(in srgb, var(--interactive-accent) 8%, transparent),
+    0 8px 24px rgba(0,0,0,.23);
+}
+
+.joa-brand-copy { min-width: 0; }
+.joa-kicker {
+  color: var(--text-faint);
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 850;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+.joa-studio-title,
+.joa-section-title { margin: 0; color: var(--text-normal); }
+.joa-studio-title { margin-top: 5px; font-size: 25px; line-height: 1.08; font-weight: 790; }
+.joa-studio-subtitle { margin: 5px 0 0; color: var(--text-muted); font-size: 11.5px; line-height: 1.4; }
+
+.joa-shortcut-pill {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 8px 7px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--background-secondary) 86%, transparent);
+  color: var(--text-muted);
+  font-size: 11px;
+}
+.joa-shortcut-pill kbd {
+  min-width: 34px;
+  padding: 5px 8px;
+  border: 1px solid color-mix(in srgb, var(--interactive-accent) 32%, var(--background-modifier-border));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--interactive-accent) 9%, var(--background-primary));
+  color: var(--text-normal);
+  text-align: center;
+  font-weight: 800;
+  box-shadow: none;
+}
+
+.joa-studio-tabs {
+  flex: 0 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  padding: 8px 18px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: color-mix(in srgb, var(--background-secondary) 62%, transparent);
+}
+
+/* Fantasy navigation: a gentle composited lift, without changing layout geometry. */
+.joa-studio-tabs { --joa-nav-gold: #c9a06a; }
+.joa-tab-button {
+  appearance: none;
+  min-height: 40px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: transparent;
+  color: var(--text-muted);
+  font-family: var(--font-interface);
+  font-size: 12px;
+  font-weight: 720;
+  cursor: pointer;
+  transform: translateY(0);
+  transition: background-color 160ms ease, color 160ms ease,
+    border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+.joa-tab-button span { margin-right: 7px; opacity: .78; }
+.joa-tab-button.is-active {
+  border-color: color-mix(in srgb, var(--joa-nav-gold) 62%, var(--background-modifier-border));
+  background-color: color-mix(in srgb, var(--joa-nav-gold) 17%, var(--background-primary));
+  color: var(--text-normal);
+  box-shadow: inset 0 -2px 0 color-mix(in srgb, var(--joa-nav-gold) 75%, transparent),
+    0 5px 16px rgba(0,0,0,.08);
+}
+@media (hover: hover) and (pointer: fine) {
+  .joa-tab-button:hover {
+    transform: translateY(-2px);
+    border-color: color-mix(in srgb, var(--joa-nav-gold) 68%, var(--background-modifier-border));
+    background-color: color-mix(in srgb, var(--joa-nav-gold) 13%, var(--background-primary));
+    color: var(--text-normal);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--joa-nav-gold) 20%, transparent),
+      0 4px 14px rgba(0,0,0,.10);
+  }
+  .joa-tab-button.is-active:hover {
+    background-color: color-mix(in srgb, var(--joa-nav-gold) 24%, var(--background-primary));
+    box-shadow: inset 0 -2px 0 var(--joa-nav-gold), 0 5px 16px rgba(0,0,0,.10);
+  }
+}
+.joa-tab-button:focus-visible {
+  outline: 2px solid var(--joa-nav-gold);
+  outline-offset: -4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .joa-tab-button { transition: none; }
+  .joa-tab-button:hover { transform: none; }
+}
+
+.joa-panel-root { flex: 1; min-height: 0; overflow: hidden; }
+.joa-tab-panel { height: 100%; min-height: 0; padding: 12px 18px 14px; overflow: auto; }
+

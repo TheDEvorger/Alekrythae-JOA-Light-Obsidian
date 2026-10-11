@@ -1,0 +1,19 @@
+{
+  "name": "joa-frp-writer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JOA Light: story-first, desktop-only Obsidian fantasy-writing companion.",
+  "scripts": {
+    "clean": "node clean.cjs",
+    "build": "node clean.cjs && tsc -p tsconfig.json && node build-release.cjs",
+    "test": "npm run build && node --test tests/*.test.cjs",
+    "check": "npm test",
+    "security:check": "node scripts/repo-safety-check.cjs && node scripts/verify-publication.cjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

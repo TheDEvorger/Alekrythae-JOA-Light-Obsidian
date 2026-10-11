@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="650" viewBox="0 0 1260 650" role="img" aria-labelledby="ttl desc">
+<title id="ttl">JOA Light studio, editorial interface illustration</title>
+<desc id="desc">Stylized concept diagram with Meggy, character inventory, roster, independent Diyar Sisi and Anlatı Sisi sliders, and a large writing surface. Not a screenshot.</desc>
+<defs>
+  <radialGradient id="bg"><stop stop-color="#27384D"/><stop offset=".62" stop-color="#121A2C"/><stop offset="1" stop-color="#0A101B"/></radialGradient>
+  <linearGradient id="panel" x2="0" y2="1"><stop stop-color="#273247"/><stop offset="1" stop-color="#131A2B"/></linearGradient>
+  <linearGradient id="gold"><stop stop-color="#E9D6A2"/><stop offset="1" stop-color="#9D8155"/></linearGradient>
+  <linearGradient id="blue"><stop stop-color="#72B1CB"/><stop offset="1" stop-color="#345E86"/></linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="34"/></filter>
+</defs>
+<rect width="1260" height="650" rx="24" fill="url(#bg)"/>
+<circle cx="190" cy="115" r="125" fill="#548AA9" opacity=".18" filter="url(#g)"/>
+<circle cx="1080" cy="480" r="156" fill="#BE9767" opacity=".11" filter="url(#g)"/>
+<g fill="#BDD3E8" opacity=".48"><circle cx="90" cy="70" r="2"/><circle cx="540" cy="38" r="1.5"/><circle cx="1140" cy="83" r="2"/><circle cx="1157" cy="576" r="1.4"/><circle cx="60" cy="551" r="1.2"/><circle cx="850" cy="42" r="1.3"/></g>
+<rect x="42" y="40" width="1176" height="566" rx="20" fill="url(#panel)" stroke="#AB9063" stroke-width="1.6"/>
+<rect x="52" y="50" width="1156" height="546" rx="15" fill="none" stroke="#AD9974" opacity=".27"/>
+<path d="M75 103H1185" stroke="#99866A" opacity=".55"/>
+<text x="82" y="78" fill="#E7D5A7" font-size="16" font-family="Georgia,serif" letter-spacing="2.6">JOA  ·  JOURNEY OF ADVENTURE</text>
+<text x="850" y="78" fill="#8FADBB" font-size="14" font-family="Segoe UI,Arial,sans-serif" letter-spacing="2">THE WRITING STUDIO  /  F3</text>
+<g font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600">
+<rect x="82" y="125" width="188" height="47" rx="9" fill="#253E51" stroke="#6F9CA9"/><text x="135" y="155" fill="#E3EBD8">MEGGY</text>
+<rect x="280" y="125" width="176" height="47" rx="9" fill="#1C2636" stroke="#465A6D"/><text x="326" y="155" fill="#C7C2BA">ÇANTA</text>
+<rect x="466" y="125" width="195" height="47" rx="9" fill="#1C2636" stroke="#465A6D"/><text x="510" y="155" fill="#C7C2BA">MEVCUDAT</text>
+</g>
+<rect x="82" y="193" width="1096" height="96" rx="12" fill="#111C2B" stroke="#55657A"/>
+<text x="104" y="215" fill="#C9B88C" font-size="12" font-family="Segoe UI,Arial,sans-serif" font-weight="bold" letter-spacing="2">VISUAL CONTROL</text>
+<rect x="105" y="226" width="145" height="47" rx="9" fill="#304253" stroke="#819CA6"/>
+<text x="127" y="255" fill="#F1E1BF" font-size="15" font-family="Segoe UI,Arial,sans-serif">Arka Plan</text>
+<g font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#D5D4CB">
+<text x="276" y="238">Diyar Sisi</text><text x="515" y="238">Anlatı Sisi</text>
+</g>
+<path d="M276 257H477" stroke="#4E6372" stroke-width="7" stroke-linecap="round"/>
+<path d="M276 257H391" stroke="#7AA9BA" stroke-width="7" stroke-linecap="round"/><circle cx="391" cy="257" r="11" fill="#CFDCE8" stroke="#84C1D5" stroke-width="3"/>
+<path d="M515 257H716" stroke="#4E6372" stroke-width="7" stroke-linecap="round"/>
+<path d="M515 257H575" stroke="#D2B583" stroke-width="7" stroke-linecap="round"/><circle cx="575" cy="257" r="11" fill="#EEE0C5" stroke="#AE9771" stroke-width="3"/>
+<rect x="735" y="224" width="172" height="48" rx="7" fill="#293245" stroke="#536A7D"/><text x="750" y="253" fill="#E5D7BD" font-size="14" font-family="Segoe UI,Arial,sans-serif">Tam Sığdır  ⌄</text>
+<rect x="918" y="224" width="236" height="48" rx="7" fill="#293245" stroke="#536A7D"/><text x="934" y="253" fill="#E5D7BD" font-size="14" font-family="Segoe UI,Arial,sans-serif">Tema · 24  ⌄</text>
+<rect x="82" y="310" width="310" height="255" rx="13" fill="#172334" stroke="#51667B"/>
+<circle cx="160" cy="390" r="44" fill="#334C60" stroke="#A88F68" stroke-width="2"/><path d="M133 407Q160 358 187 407M142 367Q160 344 178 367" stroke="#D5C9AC" stroke-width="2" fill="none"/>
+<text x="223" y="380" fill="#E7DAAF" font-size="22" font-family="Georgia,serif">Meggy</text>
+<text x="223" y="409" fill="#91B3C4" font-size="13" font-family="Segoe UI,Arial,sans-serif">D240 · 240 kayıt</text>
+<path d="M111 447H359" stroke="#475467"/><text x="110" y="474" fill="#DCD1BC" font-size="14" font-family="Segoe UI,Arial,sans-serif">Konuşmacı seçimi</text>
+<text x="110" y="509" fill="#B6C3CE" font-size="13" font-family="Segoe UI,Arial,sans-serif">Karakterler · NPC · Mekânlar</text>
+<rect x="418" y="310" width="760" height="255" rx="13" fill="#111A28" stroke="#947D5F"/>
+<text x="446" y="347" fill="#A1BFCF" font-size="13" font-family="Segoe UI,Arial,sans-serif" letter-spacing="1.6">ANLATI ALANI</text>
+<path d="M446 367H1149" stroke="#37465A"/>
+<g font-family="Georgia,serif" font-size="22" fill="#EDE4CC">
+<text x="446" y="402">Meggy: Şöminenin ışığı salona yayıldı.</text>
+</g>
+<g font-family="Georgia,serif" font-size="17"><text x="446" y="452" fill="#D0AE78">Teklif · D240 155:</text><text x="446" y="482" fill="#CFD5DE">Büyük görüntü, yeni açığa çıkan anlamın...</text></g>
+<path d="M446 515H1149" stroke="#37465A"/><text x="446" y="543" fill="#8198A7" font-size="12" font-family="Segoe UI,Arial,sans-serif">Markdown odaklı hikâye anlatımı  ·  Kalıcı kişisel kayıtlar cihazında</text>
+<text x="630" y="634" text-anchor="middle" fill="#9C9CA4" font-size="12" font-family="Segoe UI,Arial,sans-serif">EDITORIAL CONCEPT  ·  FEATURE MAP  ·  NOT A LIVE APPLICATION SCREENSHOT</text>
+</svg>

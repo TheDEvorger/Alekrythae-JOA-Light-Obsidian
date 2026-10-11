@@ -1,0 +1,30 @@
+/* Ornament families customize material and silhouette beyond palette. */
+.joa-studio-modal .joa-studio-shell[data-joa-surface="wood"] .joa-fantasy-background { filter: sepia(.14) blur(var(--joa-fantasy-blur)); }
+.joa-studio-modal .joa-studio-shell[data-joa-ornament="spires"] .joa-writing-paper { border-top: 3px double var(--joa-fantasy-line); }
+.joa-studio-modal .joa-studio-shell[data-joa-ornament="gems"] .joa-writing-paper { outline: 1px solid var(--joa-fantasy-glow); outline-offset: -6px; }
+.joa-studio-modal .joa-studio-shell[data-joa-ornament="waves"] .joa-tab-button { border-radius: 18px 4px 18px 4px; }
+.joa-studio-modal .joa-studio-shell[data-joa-ornament="runes"] .joa-writing-paper { border-style: double; border-width: 3px; }
+.joa-studio-modal .joa-studio-shell[data-joa-ornament="vines"] .joa-tab-button { border-radius: 20px 4px; }
+.joa-studio-modal .joa-studio-shell[data-joa-ornament="crest"] .joa-visual-button { border-style: double; border-width: 3px; }
+.joa-studio-modal .joa-studio-shell[data-joa-ornament="arches"] .joa-writing-paper { border-radius: 36px 36px 8px 8px; }
+.joa-studio-modal .joa-studio-shell[data-joa-ornament="rivets"] .joa-writing-paper { border-style: dashed; }
+.joa-studio-modal .joa-studio-shell[data-joa-ornament="script"] .joa-field-label { letter-spacing: .22em; font-family: Georgia, serif; }
+.joa-studio-modal .joa-studio-shell[data-joa-ornament="lightning"] .joa-scene-confirm { box-shadow: 0 0 14px var(--joa-fantasy-glow); }
+@media (max-width: 960px) {
+  .joa-studio-modal .joa-studio-header { padding: 8px 12px; flex-wrap: wrap; }
+  .joa-studio-modal .joa-visual-controls { justify-content: flex-start; }
+  .joa-studio-modal .joa-studio-tabs { padding: 4px; }
+}
+@media (max-width: 620px) {
+  .joa-studio-modal .joa-visual-controls { gap: 3px; }
+  .joa-studio-modal .joa-visual-button,
+  .joa-studio-modal .joa-visual-select,
+  .joa-studio-modal .joa-visual-blur { padding: 4px 5px; font-size: 10px; }
+  .joa-studio-modal .joa-visual-select select { width: 92px !important; font-size: 10px; }
+  .joa-studio-modal .joa-scene-tab { padding: 7px; }
+  .joa-studio-modal .joa-scene-compact-row { flex-wrap: wrap; gap: 5px; }
+  .joa-studio-modal .joa-scene-compact-row .joa-speaker-select { width: 100%; max-width: 100%; }
+  .joa-studio-modal .joa-scene-confirm { margin-left: auto; min-height: 34px; }
+  .joa-studio-modal .joa-dialogue-input { padding: 9px; min-height: min(200px, 40dvh); }
+}
+@media (prefers-reduced-motion: reduce) { .joa-studio-modal .joa-scene-compact-row * { transition: none; } }

@@ -1,0 +1,48 @@
+.joa-studio-modal .joa-roster-tab .joa-section-intro {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px;
+}
+.joa-studio-modal .joa-roster-tab .joa-section-copy { flex: 1 1 200px; min-width: 0; }
+.joa-studio-modal .joa-roster-tab .joa-panel-actions {
+  flex: 0 1 auto; display: flex; flex-wrap: wrap;
+  align-items: center; justify-content: flex-end; gap: 8px;
+  min-width: min(100%, 235px); max-width: 100%;
+}
+.joa-studio-modal .joa-roster-add,
+.joa-studio-modal .joa-life-toggle {
+  width: auto; min-width: max-content; max-width: 100%;
+  flex: 0 0 auto; padding: 7px 12px; white-space: normal;
+  line-height: 1.3; text-align: center;
+}
+.joa-studio-modal .joa-soft-count { flex: 0 0 auto; }
+.joa-studio-modal .joa-crop-panel {
+  width: min(480px, calc(100vw - 24px));
+  padding: clamp(12px, 3vw, 25px);
+  overflow-x: hidden; overflow-y: auto;
+  overflow-wrap: anywhere;
+}
+.joa-studio-modal .joa-crop-panel :is(h3, p, label, button) {
+  min-width: 0; max-width: 100%; overflow-wrap: anywhere;
+}
+.joa-studio-modal .joa-crop-panel .joa-crop-zoom-label {
+  display: grid; grid-template-columns: minmax(0, max-content) minmax(0, 1fr);
+  gap: 8px; width: 100%;
+}
+.joa-studio-modal .joa-crop-panel .joa-crop-zoom-label input {
+  min-width: 0; width: 100%;
+}
+.joa-studio-modal .joa-crop-panel .joa-crop-actions {
+  flex-wrap: wrap; max-width: 100%;
+}
+.joa-studio-modal .joa-crop-panel .joa-crop-actions button {
+  flex: 1 1 120px; min-height: 38px; max-width: 100%;
+}
+.joa-studio-modal .joa-roster-form select { width: 100%; min-width: 0; max-width: 100%; }
+.joa-studio-modal .joa-roster-form option { white-space: nowrap; }
+.joa-studio-modal .joa-roster-tab .joa-name-row-actions button {
+  min-width: 0; max-width: 100%; overflow-wrap: anywhere;
+}
+@media (max-width: 520px) {
+  .joa-studio-modal .joa-roster-tab .joa-panel-actions { width: 100%; justify-content: flex-start; }
+  .joa-studio-modal .joa-roster-tab .joa-soft-count { display: inline; }
+  .joa-studio-modal .joa-crop-panel .joa-crop-zoom-label { grid-template-columns: minmax(0,1fr); }
+}

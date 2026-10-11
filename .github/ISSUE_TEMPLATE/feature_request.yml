@@ -1,0 +1,22 @@
+name: Feature suggestion
+description: Suggest a narrative-writing improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Writing problem
+      description: Describe the difficulty, not only the proposed interface.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Compatibility and data considerations
+      description: Consider the current local database format, canonical D240 material and proprietary license.
